@@ -1,0 +1,15 @@
+/ws/install/openarmx/share/ament_index/resource_index/package_run_dependencies/openarmx
+/ws/install/openarmx/share/ament_index/resource_index/parent_prefix_path/openarmx
+/ws/install/openarmx/share/openarmx/environment/ament_prefix_path.sh
+/ws/install/openarmx/share/openarmx/environment/ament_prefix_path.dsv
+/ws/install/openarmx/share/openarmx/environment/path.sh
+/ws/install/openarmx/share/openarmx/environment/path.dsv
+/ws/install/openarmx/share/openarmx/local_setup.bash
+/ws/install/openarmx/share/openarmx/local_setup.sh
+/ws/install/openarmx/share/openarmx/local_setup.zsh
+/ws/install/openarmx/share/openarmx/local_setup.dsv
+/ws/install/openarmx/share/openarmx/package.dsv
+/ws/install/openarmx/share/ament_index/resource_index/packages/openarmx
+/ws/install/openarmx/share/openarmx/cmake/openarmxConfig.cmake
+/ws/install/openarmx/share/openarmx/cmake/openarmxConfig-version.cmake
+/ws/install/openarmx/share/openarmx/package.xml

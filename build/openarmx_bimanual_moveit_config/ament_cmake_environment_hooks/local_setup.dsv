@@ -1,0 +1,2 @@
+source;share/openarmx_bimanual_moveit_config/environment/ament_prefix_path.sh
+source;share/openarmx_bimanual_moveit_config/environment/path.sh

@@ -1,0 +1,4 @@
+source;share/openarmx/local_setup.bash
+source;share/openarmx/local_setup.dsv
+source;share/openarmx/local_setup.sh
+source;share/openarmx/local_setup.zsh
