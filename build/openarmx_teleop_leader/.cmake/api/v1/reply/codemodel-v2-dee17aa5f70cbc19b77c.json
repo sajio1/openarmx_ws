@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-82b18d6add278f21ca03.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "openarmx_teleop_leader",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "openarmx_teleop_leader_dynamics::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-openarmx_teleop_leader_dynamics-8e1d875479c66d2db7f3.json",
+					"name" : "openarmx_teleop_leader_dynamics",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "openarmx_teleop_leader_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-openarmx_teleop_leader_uninstall-dc6c59ae81b60a7321bb.json",
+					"name" : "openarmx_teleop_leader_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "teleop_leader_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-teleop_leader_node-15bf53c0c186dc0a6eba.json",
+					"name" : "teleop_leader_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "teleop_leader_with_gravitycomp_single::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-teleop_leader_with_gravitycomp_single-b53456f201182cf69630.json",
+					"name" : "teleop_leader_with_gravitycomp_single",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-a3b3ce90cb98bf2af51f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/ws/build/openarmx_teleop_leader",
+		"source" : "/ws/src/openarmx_teleop_leader"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

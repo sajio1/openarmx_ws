@@ -1,0 +1,31 @@
+[ 25%] [34m[1mAutomatic MOC for target openarmx_gripper_panel[0m
+[ 25%] Built target openarmx_gripper_panel_autogen
+[100%] Built target openarmx_gripper_panel
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /ws/install/openarmx_gripper_panel/include/openarmx_gripper_panel/gripper_panel.hpp
+-- Up-to-date symlink: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/plugin_description.xml
+-- Up-to-date symlink: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/resource/openarmx_gripper_panel
+-- Up-to-date symlink: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/plugins/plugin_description.xml
+-- Up-to-date symlink: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/environment/library_path.sh
+-- Up-to-date symlink: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/environment/library_path.dsv
+-- Up-to-date symlink: /ws/install/openarmx_gripper_panel/share/ament_index/resource_index/package_run_dependencies/openarmx_gripper_panel
+-- Up-to-date symlink: /ws/install/openarmx_gripper_panel/share/ament_index/resource_index/parent_prefix_path/openarmx_gripper_panel
+-- Up-to-date symlink: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/environment/path.sh
+-- Up-to-date symlink: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/environment/path.dsv
+-- Up-to-date symlink: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/local_setup.bash
+-- Up-to-date symlink: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/local_setup.sh
+-- Up-to-date symlink: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/local_setup.zsh
+-- Up-to-date symlink: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/local_setup.dsv
+-- Symlinking: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/package.dsv
+-- Up-to-date symlink: /ws/install/openarmx_gripper_panel/share/ament_index/resource_index/packages/openarmx_gripper_panel
+-- Up-to-date symlink: /ws/install/openarmx_gripper_panel/share/ament_index/resource_index/rviz_common__pluginlib__plugin/openarmx_gripper_panel
+-- Up-to-date symlink: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/cmake/openarmx_gripper_panelConfig.cmake
+-- Up-to-date symlink: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/cmake/openarmx_gripper_panelConfig-version.cmake
+-- Up-to-date symlink: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/package.xml
+-- Up-to-date: /ws/install/openarmx_gripper_panel/lib/libopenarmx_gripper_panel.so

@@ -1,0 +1,124 @@
+[0.009s] Invoking command in '/ws/build/openarmx_gripper_panel': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ws/src/openarmx_tools/openarmx_gripper_panel -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/install/openarmx_gripper_panel
+[0.126s] -- The C compiler identification is GNU 11.4.0
+[0.126s] -- The CXX compiler identification is GNU 11.4.0
+[0.126s] -- Detecting C compiler ABI info
+[0.126s] -- Detecting C compiler ABI info - done
+[0.127s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.127s] -- Detecting C compile features
+[0.127s] -- Detecting C compile features - done
+[0.127s] -- Detecting CXX compiler ABI info
+[0.158s] -- Detecting CXX compiler ABI info - done
+[0.163s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.163s] -- Detecting CXX compile features
+[0.164s] -- Detecting CXX compile features - done
+[0.165s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.273s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.307s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.322s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[0.347s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.350s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.355s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.361s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.372s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.394s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.395s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.442s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.459s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.497s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.497s] -- Looking for pthread.h
+[0.545s] -- Looking for pthread.h - found
+[0.545s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.586s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.587s] -- Found Threads: TRUE  
+[0.631s] -- Found rclcpp_action: 16.0.17 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.659s] -- Found control_msgs: 4.8.0 (/opt/ros/humble/share/control_msgs/cmake)
+[0.702s] -- Found rviz_common: 11.2.25 (/opt/ros/humble/share/rviz_common/cmake)
+[0.709s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[0.712s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[0.713s] -- Found OGRE
+[0.713s] --   static     : OFF
+[0.713s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[0.713s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[0.713s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[0.713s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[0.713s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[0.713s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[0.713s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[0.713s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[0.713s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[0.713s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[0.713s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[0.713s] -- Could not find freeimage library
+[0.720s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[0.721s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[0.729s] -- Found X11: /usr/include   
+[0.729s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[0.767s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[0.767s] -- Looking for gethostbyname
+[0.805s] -- Looking for gethostbyname - found
+[0.805s] -- Looking for connect
+[0.852s] -- Looking for connect - found
+[0.852s] -- Looking for remove
+[0.892s] -- Looking for remove - found
+[0.892s] -- Looking for shmat
+[0.938s] -- Looking for shmat - found
+[0.938s] -- Looking for IceConnectionNumber in ICE
+[0.978s] -- Looking for IceConnectionNumber in ICE - found
+[1.023s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.045s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.045s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.082s] -- Found rviz_default_plugins: 11.2.25 (/opt/ros/humble/share/rviz_default_plugins/cmake)
+[1.129s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.176s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.176s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.176s] -- Configured cppcheck include dirs: /ws/src/openarmx_tools/openarmx_gripper_panel/include
+[1.176s] -- Configured cppcheck exclude dirs and/or files: 
+[1.177s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.177s] -- Configured cpplint exclude dirs and/or files: 
+[1.177s] -- Added test 'lint_cmake' to check CMake code style
+[1.178s] -- Added test 'uncrustify' to check C / C++ code style
+[1.178s] -- Configured uncrustify additional arguments: 
+[1.178s] -- Added test 'xmllint' to check XML markup files
+[1.180s] -- Configuring done
+[1.196s] -- Generating done
+[1.199s] -- Build files have been written to: /ws/build/openarmx_gripper_panel
+[1.205s] Invoked command in '/ws/build/openarmx_gripper_panel' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ws/src/openarmx_tools/openarmx_gripper_panel -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/install/openarmx_gripper_panel
+[1.206s] Invoking command in '/ws/build/openarmx_gripper_panel': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ws/build/openarmx_gripper_panel -- -j20 -l20
+[1.245s] [ 25%] Automatic MOC for target openarmx_gripper_panel
+[1.456s] [ 25%] Built target openarmx_gripper_panel_autogen
+[1.469s] [ 75%] Building CXX object CMakeFiles/openarmx_gripper_panel.dir/openarmx_gripper_panel_autogen/mocs_compilation.cpp.o
+[1.469s] [ 75%] Building CXX object CMakeFiles/openarmx_gripper_panel.dir/src/gripper_panel.cpp.o
+[4.125s] [100%] Linking CXX shared library libopenarmx_gripper_panel.so
+[5.271s] [100%] Built target openarmx_gripper_panel
+[5.278s] Invoked command in '/ws/build/openarmx_gripper_panel' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ws/build/openarmx_gripper_panel -- -j20 -l20
+[5.279s] Invoking command in '/ws/build/openarmx_gripper_panel': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ws/build/openarmx_gripper_panel
+[5.285s] -- Install configuration: ""
+[5.285s] -- Execute custom install script
+[5.286s] -- Symlinking: /ws/install/openarmx_gripper_panel/include/openarmx_gripper_panel/gripper_panel.hpp
+[5.291s] -- Symlinking: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/plugin_description.xml
+[5.297s] -- Symlinking: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/resource/openarmx_gripper_panel
+[5.301s] -- Symlinking: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/plugins/plugin_description.xml
+[5.308s] -- Symlinking: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/environment/library_path.sh
+[5.314s] -- Symlinking: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/environment/library_path.dsv
+[5.321s] -- Symlinking: /ws/install/openarmx_gripper_panel/share/ament_index/resource_index/package_run_dependencies/openarmx_gripper_panel
+[5.326s] -- Symlinking: /ws/install/openarmx_gripper_panel/share/ament_index/resource_index/parent_prefix_path/openarmx_gripper_panel
+[5.333s] -- Symlinking: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/environment/ament_prefix_path.sh
+[5.338s] -- Symlinking: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/environment/ament_prefix_path.dsv
+[5.345s] -- Symlinking: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/environment/path.sh
+[5.351s] -- Symlinking: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/environment/path.dsv
+[5.356s] -- Symlinking: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/local_setup.bash
+[5.360s] -- Symlinking: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/local_setup.sh
+[5.364s] -- Symlinking: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/local_setup.zsh
+[5.369s] -- Symlinking: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/local_setup.dsv
+[5.374s] -- Symlinking: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/package.dsv
+[5.379s] -- Symlinking: /ws/install/openarmx_gripper_panel/share/ament_index/resource_index/packages/openarmx_gripper_panel
+[5.383s] -- Symlinking: /ws/install/openarmx_gripper_panel/share/ament_index/resource_index/rviz_common__pluginlib__plugin/openarmx_gripper_panel
+[5.389s] -- Symlinking: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.393s] -- Symlinking: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/cmake/ament_cmake_export_libraries-extras.cmake
+[5.398s] -- Symlinking: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.403s] -- Symlinking: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/cmake/openarmx_gripper_panelConfig.cmake
+[5.409s] -- Symlinking: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/cmake/openarmx_gripper_panelConfig-version.cmake
+[5.414s] -- Symlinking: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/package.xml
+[5.420s] -- Installing: /ws/install/openarmx_gripper_panel/lib/libopenarmx_gripper_panel.so
+[5.421s] -- Set runtime path of "/ws/install/openarmx_gripper_panel/lib/libopenarmx_gripper_panel.so" to ""
+[5.422s] Invoked command in '/ws/build/openarmx_gripper_panel' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ws/build/openarmx_gripper_panel

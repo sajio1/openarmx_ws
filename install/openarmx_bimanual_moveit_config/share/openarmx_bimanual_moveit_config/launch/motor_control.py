@@ -1,0 +1,1 @@
+/ws/src/openarmx_ros2/openarmx_bimanual_moveit_config/launch/motor_control.py

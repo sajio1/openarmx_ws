@@ -1,0 +1,98 @@
+[0.013s] Invoking command in '/ws/build/openarmx_can': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ws/src/openarmx_can -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/install/openarmx_can
+[0.129s] -- The C compiler identification is GNU 11.4.0
+[0.129s] -- The CXX compiler identification is GNU 11.4.0
+[0.129s] -- Detecting C compiler ABI info
+[0.136s] -- Detecting C compiler ABI info - done
+[0.140s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.140s] -- Detecting C compile features
+[0.140s] -- Detecting C compile features - done
+[0.142s] -- Detecting CXX compiler ABI info
+[0.182s] -- Detecting CXX compiler ABI info - done
+[0.186s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.186s] -- Detecting CXX compile features
+[0.186s] -- Detecting CXX compile features - done
+[0.188s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.293s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.325s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.411s] -- Configuring done
+[0.412s] -- Generating done
+[0.415s] -- Build files have been written to: /ws/build/openarmx_can
+[0.418s] Invoked command in '/ws/build/openarmx_can' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ws/src/openarmx_can -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/install/openarmx_can
+[0.418s] Invoking command in '/ws/build/openarmx_can': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ws/build/openarmx_can -- -j20 -l20
+[0.447s] [  5%] Building CXX object CMakeFiles/openarmx_can.dir/src/openarm/canbus/can_socket.cpp.o
+[0.447s] [ 10%] Building CXX object CMakeFiles/openarmx_can.dir/src/openarm/robstride_motor/rs_motor_device.cpp.o
+[0.447s] [ 15%] Building CXX object CMakeFiles/openarmx_can.dir/src/openarm/can/socket/arm_component.cpp.o
+[0.447s] [ 20%] Building CXX object CMakeFiles/openarmx_can.dir/src/openarm/robstride_motor/rs_motor_device_collection.cpp.o
+[0.448s] [ 25%] Building CXX object CMakeFiles/openarmx_can.dir/src/openarm/robstride_motor/rs_motor_control.cpp.o
+[0.448s] [ 30%] Building CXX object CMakeFiles/openarmx_can.dir/src/openarm/can/socket/gripper_component.cpp.o
+[0.449s] [ 45%] Building CXX object CMakeFiles/openarmx_can.dir/src/openarm/canbus/can_device_collection.cpp.o
+[0.449s] [ 45%] Building CXX object CMakeFiles/openarmx_can.dir/src/openarm/can/socket/openarm.cpp.o
+[0.449s] [ 45%] Building CXX object CMakeFiles/openarmx_can.dir/src/openarm/robstride_motor/rs_motor.cpp.o
+[1.034s] [ 50%] Linking CXX static library libopenarmx_can.a
+[1.066s] [ 50%] Built target openarmx_can
+[1.075s] [ 60%] Building CXX object CMakeFiles/motor-check.dir/setup/motor_check.cpp.o
+[1.075s] [ 60%] Building CXX object CMakeFiles/robstride-demo-full.dir/examples/robstride_demo_full.cpp.o
+[1.075s] [ 65%] Building CXX object CMakeFiles/robstride-demo.dir/examples/robstride_demo.cpp.o
+[1.080s] [ 75%] Building CXX object CMakeFiles/robstride-demo-gripper.dir/examples/robstride_demo_gripper.cpp.o
+[1.080s] [ 75%] Building CXX object CMakeFiles/python-style-test.dir/examples/python_style_test.cpp.o
+[1.479s] [ 80%] Linking CXX executable motor-check
+[1.483s] [ 85%] Linking CXX executable robstride-demo-full
+[1.515s] [ 90%] Linking CXX executable python-style-test
+[1.531s] [ 95%] Linking CXX executable robstride-demo-gripper
+[1.539s] [100%] Linking CXX executable robstride-demo
+[1.550s] [100%] Built target robstride-demo-full
+[1.552s] [100%] Built target motor-check
+[1.576s] [100%] Built target python-style-test
+[1.600s] [100%] Built target robstride-demo
+[1.602s] [100%] Built target robstride-demo-gripper
+[1.611s] Invoked command in '/ws/build/openarmx_can' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ws/build/openarmx_can -- -j20 -l20
+[1.611s] Invoking command in '/ws/build/openarmx_can': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ws/build/openarmx_can
+[1.617s] -- Install configuration: ""
+[1.617s] -- Execute custom install script
+[1.617s] -- Symlinking: /ws/install/openarmx_can/lib/cmake/OpenArmCANOpenArmXCom/OpenArmXCANConfig.cmake
+[1.623s] -- Symlinking: /ws/install/openarmx_can/lib/cmake/OpenArmCANOpenArmXCom/OpenArmXCANVersion.cmake
+[1.629s] -- Symlinking: /ws/install/openarmx_can/lib/pkgconfig/openarmx-can.pc
+[1.636s] -- Symlinking: /ws/install/openarmx_can/include/openarm/can/socket/arm_component.hpp
+[1.642s] -- Symlinking: /ws/install/openarmx_can/include/openarm/can/socket/gripper_component.hpp
+[1.646s] -- Symlinking: /ws/install/openarmx_can/include/openarm/can/socket/openarm.hpp
+[1.652s] -- Symlinking: /ws/install/openarmx_can/include/openarm/canbus/can_device.hpp
+[1.656s] -- Symlinking: /ws/install/openarmx_can/include/openarm/canbus/can_device_collection.hpp
+[1.661s] -- Symlinking: /ws/install/openarmx_can/include/openarm/canbus/can_socket.hpp
+[1.667s] -- Symlinking: /ws/install/openarmx_can/include/openarm/robstride_motor/rs_motor.hpp
+[1.673s] -- Symlinking: /ws/install/openarmx_can/include/openarm/robstride_motor/rs_motor_constants.hpp
+[1.678s] -- Symlinking: /ws/install/openarmx_can/include/openarm/robstride_motor/rs_motor_control.hpp
+[1.684s] -- Symlinking: /ws/install/openarmx_can/include/openarm/robstride_motor/rs_motor_device.hpp
+[1.689s] -- Symlinking: /ws/install/openarmx_can/include/openarm/robstride_motor/rs_motor_device_collection.hpp
+[1.696s] -- Symlinking: /ws/install/openarmx_can/lib/openarmx_can/robstride-demo
+[1.702s] -- Symlinking: /ws/install/openarmx_can/lib/openarmx_can/python-style-test
+[1.708s] -- Symlinking: /ws/install/openarmx_can/lib/openarmx_can/robstride-demo-full
+[1.714s] -- Symlinking: /ws/install/openarmx_can/lib/openarmx_can/robstride-demo-gripper
+[1.718s] -- Symlinking: /ws/install/openarmx_can/lib/openarmx_can/motor-check
+[1.724s] -- Symlinking: /ws/install/openarmx_can/lib/cmake/openarmx_can/openarmx_canConfig.cmake
+[1.730s] -- Symlinking: /ws/install/openarmx_can/share/openarmx_can/environment/library_path.sh
+[1.736s] -- Symlinking: /ws/install/openarmx_can/share/openarmx_can/environment/library_path.dsv
+[1.742s] -- Symlinking: /ws/install/openarmx_can/share/ament_index/resource_index/package_run_dependencies/openarmx_can
+[1.746s] -- Symlinking: /ws/install/openarmx_can/share/ament_index/resource_index/parent_prefix_path/openarmx_can
+[1.752s] -- Symlinking: /ws/install/openarmx_can/share/openarmx_can/environment/ament_prefix_path.sh
+[1.758s] -- Symlinking: /ws/install/openarmx_can/share/openarmx_can/environment/ament_prefix_path.dsv
+[1.764s] -- Symlinking: /ws/install/openarmx_can/share/openarmx_can/environment/path.sh
+[1.770s] -- Symlinking: /ws/install/openarmx_can/share/openarmx_can/environment/path.dsv
+[1.776s] -- Symlinking: /ws/install/openarmx_can/share/openarmx_can/local_setup.bash
+[1.782s] -- Symlinking: /ws/install/openarmx_can/share/openarmx_can/local_setup.sh
+[1.786s] -- Symlinking: /ws/install/openarmx_can/share/openarmx_can/local_setup.zsh
+[1.792s] -- Symlinking: /ws/install/openarmx_can/share/openarmx_can/local_setup.dsv
+[1.799s] -- Symlinking: /ws/install/openarmx_can/share/openarmx_can/package.dsv
+[1.804s] -- Symlinking: /ws/install/openarmx_can/share/ament_index/resource_index/packages/openarmx_can
+[1.809s] -- Symlinking: /ws/install/openarmx_can/share/openarmx_can/cmake/ament_cmake_export_targets-extras.cmake
+[1.815s] -- Symlinking: /ws/install/openarmx_can/share/openarmx_can/cmake/openarmx_canConfig.cmake
+[1.821s] -- Symlinking: /ws/install/openarmx_can/share/openarmx_can/cmake/openarmx_canConfig-version.cmake
+[1.826s] -- Symlinking: /ws/install/openarmx_can/share/openarmx_can/package.xml
+[1.832s] -- Installing: /ws/install/openarmx_can/lib/libopenarmx_can.a
+[1.833s] -- Installing: /ws/install/openarmx_can/lib/cmake/OpenArmCANOpenArmXCom/OpenArmCANOpenArmXComTargets.cmake
+[1.833s] -- Installing: /ws/install/openarmx_can/lib/cmake/OpenArmCANOpenArmXCom/OpenArmCANOpenArmXComTargets-noconfig.cmake
+[1.833s] -- Up-to-date: /ws/install/openarmx_can/lib/libopenarmx_can.a
+[1.833s] -- Installing: /ws/install/openarmx_can/lib/cmake/openarmx_can/openarmx_canTargets.cmake
+[1.833s] -- Installing: /ws/install/openarmx_can/lib/cmake/openarmx_can/openarmx_canTargets-noconfig.cmake
+[1.833s] -- Installing: /ws/install/openarmx_can/share/openarmx_can/cmake/openarmx_canTargetsExport.cmake
+[1.833s] -- Installing: /ws/install/openarmx_can/share/openarmx_can/cmake/openarmx_canTargetsExport-noconfig.cmake
+[1.834s] Invoked command in '/ws/build/openarmx_can' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ws/build/openarmx_can

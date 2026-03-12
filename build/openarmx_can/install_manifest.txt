@@ -1,0 +1,8 @@
+/ws/install/openarmx_can/lib/libopenarmx_can.a
+/ws/install/openarmx_can/lib/cmake/OpenArmCANOpenArmXCom/OpenArmCANOpenArmXComTargets.cmake
+/ws/install/openarmx_can/lib/cmake/OpenArmCANOpenArmXCom/OpenArmCANOpenArmXComTargets-noconfig.cmake
+/ws/install/openarmx_can/lib/libopenarmx_can.a
+/ws/install/openarmx_can/lib/cmake/openarmx_can/openarmx_canTargets.cmake
+/ws/install/openarmx_can/lib/cmake/openarmx_can/openarmx_canTargets-noconfig.cmake
+/ws/install/openarmx_can/share/openarmx_can/cmake/openarmx_canTargetsExport.cmake
+/ws/install/openarmx_can/share/openarmx_can/cmake/openarmx_canTargetsExport-noconfig.cmake

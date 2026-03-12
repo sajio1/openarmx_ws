@@ -1,0 +1,11 @@
+prefix=/ws/install/openarmx_can
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: openarm-can-robstride
+Description: OpenArm CAN library for Robstride motors
+Version: 1.0.0
+Requires:
+Libs: -L${libdir} -lopenarm_can_robstride
+Cflags: -I${includedir}

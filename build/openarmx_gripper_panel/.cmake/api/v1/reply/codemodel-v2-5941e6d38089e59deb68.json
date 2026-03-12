@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-cd05942f8352667aa3a5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "openarmx_gripper_panel",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "openarmx_gripper_panel::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-openarmx_gripper_panel-fd0469df93e025f38863.json",
+					"name" : "openarmx_gripper_panel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "openarmx_gripper_panel_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-openarmx_gripper_panel_autogen-fedd567c6681e3c163e8.json",
+					"name" : "openarmx_gripper_panel_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "openarmx_gripper_panel_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-openarmx_gripper_panel_uninstall-2fd2cedc7b31a1dade4f.json",
+					"name" : "openarmx_gripper_panel_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-410525b72fe87c04d35e.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/ws/build/openarmx_gripper_panel",
+		"source" : "/ws/src/openarmx_tools/openarmx_gripper_panel"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

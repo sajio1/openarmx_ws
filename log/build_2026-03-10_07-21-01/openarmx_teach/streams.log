@@ -1,0 +1,19 @@
+[0.299s] Invoking command in '/ws/build/openarmx_teach': PYTHONPATH=/ws/build/openarmx_teach/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ws/install/openarmx_teach/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ws/build/openarmx_teach/build --no-deps symlink_data
+[0.400s] running develop
+[0.445s] running egg_info
+[0.445s] writing openarmx_teach.egg-info/PKG-INFO
+[0.445s] writing dependency_links to openarmx_teach.egg-info/dependency_links.txt
+[0.445s] writing entry points to openarmx_teach.egg-info/entry_points.txt
+[0.445s] writing requirements to openarmx_teach.egg-info/requires.txt
+[0.445s] writing top-level names to openarmx_teach.egg-info/top_level.txt
+[0.446s] reading manifest file 'openarmx_teach.egg-info/SOURCES.txt'
+[0.446s] writing manifest file 'openarmx_teach.egg-info/SOURCES.txt'
+[0.447s] running build_ext
+[0.447s] Creating /ws/install/openarmx_teach/lib/python3.10/site-packages/openarmx-teach.egg-link (link to .)
+[0.447s] Installing play_joint_trajectory script to /ws/install/openarmx_teach/lib/openarmx_teach
+[0.447s] Installing record_joint_states_always script to /ws/install/openarmx_teach/lib/openarmx_teach
+[0.447s] Installing record_joint_states_stepbystep script to /ws/install/openarmx_teach/lib/openarmx_teach
+[0.447s] 
+[0.448s] Installed /ws/build/openarmx_teach
+[0.448s] running symlink_data
+[0.466s] Invoked command in '/ws/build/openarmx_teach' returned '0': PYTHONPATH=/ws/build/openarmx_teach/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ws/install/openarmx_teach/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ws/build/openarmx_teach/build --no-deps symlink_data

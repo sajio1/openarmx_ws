@@ -1,0 +1,74 @@
+[0.007s] Invoking command in '/ws/build/openarmx_hardware': AMENT_PREFIX_PATH=/ws/install/openarmx_can:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ws/install/openarmx_can:/opt/ros/humble LD_LIBRARY_PATH=/ws/install/openarmx_can/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /ws/src/openarmx_ros2/openarmx_hardware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/install/openarmx_hardware
+[0.042s] -- The C compiler identification is GNU 11.4.0
+[0.072s] -- The CXX compiler identification is GNU 11.4.0
+[0.076s] -- Detecting C compiler ABI info
+[0.114s] -- Detecting C compiler ABI info - done
+[0.120s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.120s] -- Detecting C compile features
+[0.121s] -- Detecting C compile features - done
+[0.123s] -- Detecting CXX compiler ABI info
+[0.175s] -- Detecting CXX compiler ABI info - done
+[0.182s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.182s] -- Detecting CXX compile features
+[0.182s] -- Detecting CXX compile features - done
+[0.185s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.287s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.327s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.345s] -- Found hardware_interface: 2.53.1 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.365s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.368s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.373s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.379s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.388s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.501s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.502s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.517s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.551s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.553s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.561s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.563s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.569s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.576s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.585s] -- Looking for pthread.h
+[0.628s] -- Looking for pthread.h - found
+[0.628s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.669s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.670s] -- Found Threads: TRUE  
+[0.735s] -- Configuring done
+[0.741s] -- Generating done
+[0.743s] -- Build files have been written to: /ws/build/openarmx_hardware
+[0.748s] Invoked command in '/ws/build/openarmx_hardware' returned '0': AMENT_PREFIX_PATH=/ws/install/openarmx_can:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ws/install/openarmx_can:/opt/ros/humble LD_LIBRARY_PATH=/ws/install/openarmx_can/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /ws/src/openarmx_ros2/openarmx_hardware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/install/openarmx_hardware
+[0.749s] Invoking command in '/ws/build/openarmx_hardware': AMENT_PREFIX_PATH=/ws/install/openarmx_can:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ws/install/openarmx_can:/opt/ros/humble LD_LIBRARY_PATH=/ws/install/openarmx_can/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /ws/build/openarmx_hardware -- -j20 -l20
+[0.791s] [ 50%] Building CXX object CMakeFiles/openarmx_hardware.dir/src/v10_simple_hardware.cpp.o
+[3.008s] [100%] Linking CXX shared library libopenarmx_hardware.so
+[3.148s] [100%] Built target openarmx_hardware
+[3.156s] Invoked command in '/ws/build/openarmx_hardware' returned '0': AMENT_PREFIX_PATH=/ws/install/openarmx_can:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ws/install/openarmx_can:/opt/ros/humble LD_LIBRARY_PATH=/ws/install/openarmx_can/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /ws/build/openarmx_hardware -- -j20 -l20
+[3.157s] Invoking command in '/ws/build/openarmx_hardware': AMENT_PREFIX_PATH=/ws/install/openarmx_can:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ws/install/openarmx_can:/opt/ros/humble LD_LIBRARY_PATH=/ws/install/openarmx_can/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /ws/build/openarmx_hardware
+[3.164s] -- Install configuration: ""
+[3.164s] -- Execute custom install script
+[3.164s] -- Symlinking: /ws/install/openarmx_hardware/share/openarmx_hardware//openarmx_hardware.xml
+[3.170s] -- Symlinking: /ws/install/openarmx_hardware/lib/libopenarmx_hardware.so
+[3.176s] -- Symlinking: /ws/install/openarmx_hardware/include/openarmx_hardware/v10_simple_hardware.hpp
+[3.184s] -- Symlinking: /ws/install/openarmx_hardware/include/openarmx_hardware/visibility_control.h
+[3.190s] -- Symlinking: /ws/install/openarmx_hardware/share/openarmx_hardware/environment/library_path.sh
+[3.196s] -- Symlinking: /ws/install/openarmx_hardware/share/openarmx_hardware/environment/library_path.dsv
+[3.204s] -- Symlinking: /ws/install/openarmx_hardware/share/ament_index/resource_index/package_run_dependencies/openarmx_hardware
+[3.210s] -- Symlinking: /ws/install/openarmx_hardware/share/ament_index/resource_index/parent_prefix_path/openarmx_hardware
+[3.216s] -- Symlinking: /ws/install/openarmx_hardware/share/openarmx_hardware/environment/ament_prefix_path.sh
+[3.223s] -- Symlinking: /ws/install/openarmx_hardware/share/openarmx_hardware/environment/ament_prefix_path.dsv
+[3.229s] -- Symlinking: /ws/install/openarmx_hardware/share/openarmx_hardware/environment/path.sh
+[3.236s] -- Symlinking: /ws/install/openarmx_hardware/share/openarmx_hardware/environment/path.dsv
+[3.243s] -- Symlinking: /ws/install/openarmx_hardware/share/openarmx_hardware/local_setup.bash
+[3.248s] -- Symlinking: /ws/install/openarmx_hardware/share/openarmx_hardware/local_setup.sh
+[3.254s] -- Symlinking: /ws/install/openarmx_hardware/share/openarmx_hardware/local_setup.zsh
+[3.262s] -- Symlinking: /ws/install/openarmx_hardware/share/openarmx_hardware/local_setup.dsv
+[3.269s] -- Symlinking: /ws/install/openarmx_hardware/share/openarmx_hardware/package.dsv
+[3.276s] -- Symlinking: /ws/install/openarmx_hardware/share/ament_index/resource_index/packages/openarmx_hardware
+[3.281s] -- Symlinking: /ws/install/openarmx_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/openarmx_hardware
+[3.288s] -- Symlinking: /ws/install/openarmx_hardware/share/openarmx_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.295s] -- Symlinking: /ws/install/openarmx_hardware/share/openarmx_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+[3.299s] -- Symlinking: /ws/install/openarmx_hardware/share/openarmx_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.306s] -- Symlinking: /ws/install/openarmx_hardware/share/openarmx_hardware/cmake/openarmx_hardwareConfig.cmake
+[3.310s] -- Symlinking: /ws/install/openarmx_hardware/share/openarmx_hardware/cmake/openarmx_hardwareConfig-version.cmake
+[3.317s] -- Symlinking: /ws/install/openarmx_hardware/share/openarmx_hardware/package.xml
+[3.323s] Invoked command in '/ws/build/openarmx_hardware' returned '0': AMENT_PREFIX_PATH=/ws/install/openarmx_can:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ws/install/openarmx_can:/opt/ros/humble LD_LIBRARY_PATH=/ws/install/openarmx_can/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /ws/build/openarmx_hardware

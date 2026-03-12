@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/robstride-demo-gripper.dir/examples/robstride_demo_gripper.cpp.o -o robstride-demo-gripper  libopenarmx_can.a 

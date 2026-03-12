@@ -1,0 +1,1 @@
+/ws/src/openarmx_tools/openarmx_gripper_panel/include/openarmx_gripper_panel/gripper_panel.hpp

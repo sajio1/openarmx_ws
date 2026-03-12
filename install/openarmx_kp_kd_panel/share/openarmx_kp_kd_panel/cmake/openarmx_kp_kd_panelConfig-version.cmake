@@ -1,0 +1,1 @@
+/ws/build/openarmx_kp_kd_panel/ament_cmake_core/openarmx_kp_kd_panelConfig-version.cmake

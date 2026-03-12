@@ -1,0 +1,33 @@
+[0.018s] Invoking command in '/ws/build/openarmx_kp_kd_panel': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ws/install/openarmx_teach:/opt/ros/humble /usr/bin/cmake --build /ws/build/openarmx_kp_kd_panel -- -j20 -l20
+[0.044s] [ 25%] [34m[1mAutomatic MOC and UIC for target openarmx_kp_kd_panel[0m
+[0.061s] [ 25%] Built target openarmx_kp_kd_panel_autogen
+[0.082s] [100%] Built target openarmx_kp_kd_panel
+[0.135s] Invoked command in '/ws/build/openarmx_kp_kd_panel' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ws/install/openarmx_teach:/opt/ros/humble /usr/bin/cmake --build /ws/build/openarmx_kp_kd_panel -- -j20 -l20
+[0.136s] Invoking command in '/ws/build/openarmx_kp_kd_panel': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ws/install/openarmx_teach:/opt/ros/humble /usr/bin/cmake --install /ws/build/openarmx_kp_kd_panel
+[0.139s] -- Install configuration: ""
+[0.139s] -- Execute custom install script
+[0.139s] -- Up-to-date symlink: /ws/install/openarmx_kp_kd_panel/share/openarmx_kp_kd_panel//plugin_description.xml
+[0.139s] -- Up-to-date symlink: /ws/install/openarmx_kp_kd_panel/lib/libopenarmx_kp_kd_panel.so
+[0.140s] -- Up-to-date symlink: /ws/install/openarmx_kp_kd_panel/include/openarmx_kp_kd_panel/kp_kd_panel.hpp
+[0.140s] -- Up-to-date symlink: /ws/install/openarmx_kp_kd_panel/share/openarmx_kp_kd_panel/plugin_description.xml
+[0.140s] -- Up-to-date symlink: /ws/install/openarmx_kp_kd_panel/share/openarmx_kp_kd_panel/environment/library_path.sh
+[0.140s] -- Up-to-date symlink: /ws/install/openarmx_kp_kd_panel/share/openarmx_kp_kd_panel/environment/library_path.dsv
+[0.141s] -- Up-to-date symlink: /ws/install/openarmx_kp_kd_panel/share/ament_index/resource_index/package_run_dependencies/openarmx_kp_kd_panel
+[0.141s] -- Up-to-date symlink: /ws/install/openarmx_kp_kd_panel/share/ament_index/resource_index/parent_prefix_path/openarmx_kp_kd_panel
+[0.141s] -- Up-to-date symlink: /ws/install/openarmx_kp_kd_panel/share/openarmx_kp_kd_panel/environment/ament_prefix_path.sh
+[0.141s] -- Up-to-date symlink: /ws/install/openarmx_kp_kd_panel/share/openarmx_kp_kd_panel/environment/ament_prefix_path.dsv
+[0.141s] -- Up-to-date symlink: /ws/install/openarmx_kp_kd_panel/share/openarmx_kp_kd_panel/environment/path.sh
+[0.142s] -- Up-to-date symlink: /ws/install/openarmx_kp_kd_panel/share/openarmx_kp_kd_panel/environment/path.dsv
+[0.142s] -- Up-to-date symlink: /ws/install/openarmx_kp_kd_panel/share/openarmx_kp_kd_panel/local_setup.bash
+[0.142s] -- Up-to-date symlink: /ws/install/openarmx_kp_kd_panel/share/openarmx_kp_kd_panel/local_setup.sh
+[0.142s] -- Up-to-date symlink: /ws/install/openarmx_kp_kd_panel/share/openarmx_kp_kd_panel/local_setup.zsh
+[0.142s] -- Up-to-date symlink: /ws/install/openarmx_kp_kd_panel/share/openarmx_kp_kd_panel/local_setup.dsv
+[0.142s] -- Symlinking: /ws/install/openarmx_kp_kd_panel/share/openarmx_kp_kd_panel/package.dsv
+[0.153s] -- Up-to-date symlink: /ws/install/openarmx_kp_kd_panel/share/ament_index/resource_index/packages/openarmx_kp_kd_panel
+[0.153s] -- Up-to-date symlink: /ws/install/openarmx_kp_kd_panel/share/ament_index/resource_index/rviz_common__pluginlib__plugin/openarmx_kp_kd_panel
+[0.154s] -- Up-to-date symlink: /ws/install/openarmx_kp_kd_panel/share/openarmx_kp_kd_panel/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.154s] -- Up-to-date symlink: /ws/install/openarmx_kp_kd_panel/share/openarmx_kp_kd_panel/cmake/ament_cmake_export_libraries-extras.cmake
+[0.154s] -- Up-to-date symlink: /ws/install/openarmx_kp_kd_panel/share/openarmx_kp_kd_panel/cmake/openarmx_kp_kd_panelConfig.cmake
+[0.155s] -- Up-to-date symlink: /ws/install/openarmx_kp_kd_panel/share/openarmx_kp_kd_panel/cmake/openarmx_kp_kd_panelConfig-version.cmake
+[0.155s] -- Up-to-date symlink: /ws/install/openarmx_kp_kd_panel/share/openarmx_kp_kd_panel/package.xml
+[0.162s] Invoked command in '/ws/build/openarmx_kp_kd_panel' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ws/install/openarmx_teach:/opt/ros/humble /usr/bin/cmake --install /ws/build/openarmx_kp_kd_panel

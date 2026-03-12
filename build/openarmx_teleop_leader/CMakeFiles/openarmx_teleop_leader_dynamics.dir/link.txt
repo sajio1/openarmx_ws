@@ -1,0 +1,2 @@
+/usr/bin/ar qc libopenarmx_teleop_leader_dynamics.a CMakeFiles/openarmx_teleop_leader_dynamics.dir/src/dynamics.cpp.o
+/usr/bin/ranlib libopenarmx_teleop_leader_dynamics.a

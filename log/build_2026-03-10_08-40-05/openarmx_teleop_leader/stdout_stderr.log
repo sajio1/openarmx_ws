@@ -1,0 +1,24 @@
+[ 33%] Built target openarmx_teleop_leader_dynamics
+[ 66%] Built target teleop_leader_node
+[100%] Built target teleop_leader_with_gravitycomp_single
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /ws/install/openarmx_teleop_leader/lib/openarmx_teleop_leader/teleop_leader_node
+-- Up-to-date symlink: /ws/install/openarmx_teleop_leader/lib/openarmx_teleop_leader/teleop_leader_with_gravitycomp_single
+-- Up-to-date symlink: /ws/install/openarmx_teleop_leader/share/openarmx_teleop_leader/launch/bimanual_teleop.launch.py
+-- Up-to-date symlink: /ws/install/openarmx_teleop_leader/share/openarmx_teleop_leader/launch/teleop_leader_with_gravitycomp_bimanual.launch.py
+-- Up-to-date symlink: /ws/install/openarmx_teleop_leader/share/ament_index/resource_index/package_run_dependencies/openarmx_teleop_leader
+-- Up-to-date symlink: /ws/install/openarmx_teleop_leader/share/ament_index/resource_index/parent_prefix_path/openarmx_teleop_leader
+-- Up-to-date symlink: /ws/install/openarmx_teleop_leader/share/openarmx_teleop_leader/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /ws/install/openarmx_teleop_leader/share/openarmx_teleop_leader/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /ws/install/openarmx_teleop_leader/share/openarmx_teleop_leader/environment/path.sh
+-- Up-to-date symlink: /ws/install/openarmx_teleop_leader/share/openarmx_teleop_leader/environment/path.dsv
+-- Up-to-date symlink: /ws/install/openarmx_teleop_leader/share/openarmx_teleop_leader/local_setup.bash
+-- Up-to-date symlink: /ws/install/openarmx_teleop_leader/share/openarmx_teleop_leader/local_setup.sh
+-- Up-to-date symlink: /ws/install/openarmx_teleop_leader/share/openarmx_teleop_leader/local_setup.zsh
+-- Up-to-date symlink: /ws/install/openarmx_teleop_leader/share/openarmx_teleop_leader/local_setup.dsv
+-- Symlinking: /ws/install/openarmx_teleop_leader/share/openarmx_teleop_leader/package.dsv
+-- Up-to-date symlink: /ws/install/openarmx_teleop_leader/share/ament_index/resource_index/packages/openarmx_teleop_leader
+-- Up-to-date symlink: /ws/install/openarmx_teleop_leader/share/openarmx_teleop_leader/cmake/openarmx_teleop_leaderConfig.cmake
+-- Up-to-date symlink: /ws/install/openarmx_teleop_leader/share/openarmx_teleop_leader/cmake/openarmx_teleop_leaderConfig-version.cmake
+-- Up-to-date symlink: /ws/install/openarmx_teleop_leader/share/openarmx_teleop_leader/package.xml

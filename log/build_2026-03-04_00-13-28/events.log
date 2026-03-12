@@ -1,0 +1,965 @@
+[0.000000] (-) TimerEvent: {}
+[0.000056] (openarmx_bringup) JobQueued: {'identifier': 'openarmx_bringup', 'dependencies': OrderedDict()}
+[0.000091] (openarmx_can) JobQueued: {'identifier': 'openarmx_can', 'dependencies': OrderedDict()}
+[0.000168] (openarmx_description) JobQueued: {'identifier': 'openarmx_description', 'dependencies': OrderedDict()}
+[0.000207] (openarmx_gripper_panel) JobQueued: {'identifier': 'openarmx_gripper_panel', 'dependencies': OrderedDict()}
+[0.000229] (openarmx_kp_kd_panel) JobQueued: {'identifier': 'openarmx_kp_kd_panel', 'dependencies': OrderedDict()}
+[0.000245] (openarmx_teach) JobQueued: {'identifier': 'openarmx_teach', 'dependencies': OrderedDict()}
+[0.000259] (openarmx_bimanual_moveit_config) JobQueued: {'identifier': 'openarmx_bimanual_moveit_config', 'dependencies': OrderedDict([('openarmx_description', '/ws/install/openarmx_description')])}
+[0.000388] (openarmx_hardware) JobQueued: {'identifier': 'openarmx_hardware', 'dependencies': OrderedDict([('openarmx_can', '/ws/install/openarmx_can')])}
+[0.000416] (openarmx_teleop_leader) JobQueued: {'identifier': 'openarmx_teleop_leader', 'dependencies': OrderedDict([('openarmx_can', '/ws/install/openarmx_can')])}
+[0.000441] (openarmx) JobQueued: {'identifier': 'openarmx', 'dependencies': OrderedDict([('openarmx_bringup', '/ws/install/openarmx_bringup'), ('openarmx_can', '/ws/install/openarmx_can'), ('openarmx_description', '/ws/install/openarmx_description'), ('openarmx_hardware', '/ws/install/openarmx_hardware')])}
+[0.000486] (openarmx_can) JobStarted: {'identifier': 'openarmx_can'}
+[0.003082] (openarmx_description) JobStarted: {'identifier': 'openarmx_description'}
+[0.004482] (openarmx_bringup) JobStarted: {'identifier': 'openarmx_bringup'}
+[0.006057] (openarmx_gripper_panel) JobStarted: {'identifier': 'openarmx_gripper_panel'}
+[0.007627] (openarmx_kp_kd_panel) JobStarted: {'identifier': 'openarmx_kp_kd_panel'}
+[0.008842] (openarmx_teach) JobStarted: {'identifier': 'openarmx_teach'}
+[0.012131] (openarmx_can) JobProgress: {'identifier': 'openarmx_can', 'progress': 'cmake'}
+[0.012327] (openarmx_can) Command: {'cmd': ['/usr/bin/cmake', '/ws/src/openarmx_can', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/ws/install/openarmx_can'], 'cwd': '/ws/build/openarmx_can', 'env': OrderedDict([('HOSTNAME', 'sajio-System-Product-Name'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/ws/build/openarmx_can'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.013279] (openarmx_description) JobProgress: {'identifier': 'openarmx_description', 'progress': 'cmake'}
+[0.013339] (openarmx_description) Command: {'cmd': ['/usr/bin/cmake', '/ws/src/openarmx_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/ws/install/openarmx_description'], 'cwd': '/ws/build/openarmx_description', 'env': OrderedDict([('HOSTNAME', 'sajio-System-Product-Name'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/ws/build/openarmx_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.014033] (openarmx_bringup) JobProgress: {'identifier': 'openarmx_bringup', 'progress': 'cmake'}
+[0.014046] (openarmx_bringup) Command: {'cmd': ['/usr/bin/cmake', '/ws/src/openarmx_ros2/openarmx_bringup', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/ws/install/openarmx_bringup'], 'cwd': '/ws/build/openarmx_bringup', 'env': OrderedDict([('HOSTNAME', 'sajio-System-Product-Name'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/ws/build/openarmx_bringup'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.014342] (openarmx_gripper_panel) JobProgress: {'identifier': 'openarmx_gripper_panel', 'progress': 'cmake'}
+[0.014392] (openarmx_gripper_panel) Command: {'cmd': ['/usr/bin/cmake', '/ws/src/openarmx_tools/openarmx_gripper_panel', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/ws/install/openarmx_gripper_panel'], 'cwd': '/ws/build/openarmx_gripper_panel', 'env': OrderedDict([('HOSTNAME', 'sajio-System-Product-Name'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/ws/build/openarmx_gripper_panel'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.014929] (openarmx_kp_kd_panel) JobProgress: {'identifier': 'openarmx_kp_kd_panel', 'progress': 'cmake'}
+[0.015004] (openarmx_kp_kd_panel) Command: {'cmd': ['/usr/bin/cmake', '/ws/src/openarmx_tools/openarmx_kp_kd_panel', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/ws/install/openarmx_kp_kd_panel'], 'cwd': '/ws/build/openarmx_kp_kd_panel', 'env': OrderedDict([('HOSTNAME', 'sajio-System-Product-Name'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/ws/build/openarmx_kp_kd_panel'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099389] (-) TimerEvent: {}
+[0.128814] (openarmx_can) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.129253] (openarmx_can) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.129326] (openarmx_can) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.129548] (openarmx_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.129852] (openarmx_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.130034] (openarmx_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.130285] (openarmx_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.130435] (openarmx_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.130562] (openarmx_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.131427] (openarmx_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.131762] (openarmx_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.131834] (openarmx_bringup) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.131909] (openarmx_bringup) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.132039] (openarmx_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.132093] (openarmx_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.132145] (openarmx_gripper_panel) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.132387] (openarmx_gripper_panel) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.132444] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.132497] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.132550] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.132602] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.132655] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.132708] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.132986] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.133243] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.133293] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.133346] (openarmx_bringup) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.133401] (openarmx_bringup) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.133451] (openarmx_bringup) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.133500] (openarmx_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.136318] (openarmx_can) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.140020] (openarmx_can) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.140167] (openarmx_can) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.140356] (openarmx_can) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.141924] (openarmx_can) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.148958] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.152584] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.152815] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.152944] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.154488] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.164370] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.167945] (openarmx_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.169309] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.169447] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.169701] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.171124] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.173952] (openarmx_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.174530] (openarmx_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.174753] (openarmx_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.175140] (openarmx_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.177517] (openarmx_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.177707] (openarmx_bringup) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.177866] (openarmx_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.178106] (openarmx_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.179282] (openarmx_bringup) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.182595] (openarmx_can) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.186368] (openarmx_can) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.186520] (openarmx_can) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.186716] (openarmx_can) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.188068] (openarmx_can) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199476] (-) TimerEvent: {}
+[0.199802] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.206410] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.206586] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.206986] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.209179] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.274226] (openarmx_bringup) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.279144] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.286697] (openarmx_teach) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/ws/build/openarmx_teach/build', '--no-deps', 'symlink_data'], 'cwd': '/ws/build/openarmx_teach', 'env': {'HOSTNAME': 'sajio-System-Product-Name', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'DEBIAN_FRONTEND': 'noninteractive', 'PWD': '/ws/build/openarmx_teach', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/ws/build/openarmx_teach/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ws/install/openarmx_teach/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.292027] (openarmx_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.293232] (openarmx_can) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.299553] (-) TimerEvent: {}
+[0.305201] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.307018] (openarmx_bringup) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.312982] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.322660] (openarmx_bringup) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.325607] (openarmx_can) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.327920] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.335907] (openarmx_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.337918] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.353113] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.353813] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.355738] (openarmx_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.355928] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.360570] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.367260] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.369649] (openarmx_bringup) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.369898] (openarmx_bringup) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.370128] (openarmx_bringup) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.370769] (openarmx_bringup) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.371401] (openarmx_bringup) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.373344] (openarmx_bringup) StdoutLine: {'line': b'-- Generating done\n'}
+[0.374007] (openarmx_bringup) StdoutLine: {'line': b'-- Build files have been written to: /ws/build/openarmx_bringup\n'}
+[0.374547] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.376025] (openarmx_bringup) CommandEnded: {'returncode': 0}
+[0.376340] (openarmx_bringup) JobProgress: {'identifier': 'openarmx_bringup', 'progress': 'build'}
+[0.376858] (openarmx_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ws/build/openarmx_bringup', '--', '-j20', '-l20'], 'cwd': '/ws/build/openarmx_bringup', 'env': OrderedDict([('HOSTNAME', 'sajio-System-Product-Name'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/ws/build/openarmx_bringup'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.377622] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.377706] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.381656] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.387979] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.396480] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.399631] (-) TimerEvent: {}
+[0.399831] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.401266] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.403164] (openarmx_bringup) CommandEnded: {'returncode': 0}
+[0.403562] (openarmx_bringup) JobProgress: {'identifier': 'openarmx_bringup', 'progress': 'install'}
+[0.410104] (openarmx_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ws/build/openarmx_bringup'], 'cwd': '/ws/build/openarmx_bringup', 'env': OrderedDict([('HOSTNAME', 'sajio-System-Product-Name'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/ws/build/openarmx_bringup'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.411059] (openarmx_can) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.411144] (openarmx_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.411204] (openarmx_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.411253] (openarmx_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.411971] (openarmx_can) StdoutLine: {'line': b'-- Generating done\n'}
+[0.413948] (openarmx_teach) StdoutLine: {'line': b'running develop\n'}
+[0.414651] (openarmx_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.415299] (openarmx_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.415502] (openarmx_can) StdoutLine: {'line': b'-- Build files have been written to: /ws/build/openarmx_can\n'}
+[0.416049] (openarmx_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.416431] (openarmx_bringup) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.416531] (openarmx_description) StdoutLine: {'line': b'-- Generating done\n'}
+[0.416796] (openarmx_bringup) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_bringup/share/openarmx_bringup/launch/openarm.bimanual.launch.py\n'}
+[0.417196] (openarmx_description) StdoutLine: {'line': b'-- Build files have been written to: /ws/build/openarmx_description\n'}
+[0.418001] (openarmx_can) CommandEnded: {'returncode': 0}
+[0.418345] (openarmx_can) JobProgress: {'identifier': 'openarmx_can', 'progress': 'build'}
+[0.418575] (openarmx_can) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ws/build/openarmx_can', '--', '-j20', '-l20'], 'cwd': '/ws/build/openarmx_can', 'env': OrderedDict([('HOSTNAME', 'sajio-System-Product-Name'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/ws/build/openarmx_can'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.419536] (openarmx_description) CommandEnded: {'returncode': 0}
+[0.419799] (openarmx_description) JobProgress: {'identifier': 'openarmx_description', 'progress': 'build'}
+[0.419935] (openarmx_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ws/build/openarmx_description', '--', '-j20', '-l20'], 'cwd': '/ws/build/openarmx_description', 'env': OrderedDict([('HOSTNAME', 'sajio-System-Product-Name'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/ws/build/openarmx_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.420437] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.420969] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.423574] (openarmx_bringup) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_bringup/share/openarmx_bringup/config/v10_controllers/openarm_v10_bimanual_controllers.yaml\n'}
+[0.429452] (openarmx_bringup) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_bringup/share/openarmx_bringup/config/v10_controllers/openarm_v10_bimanual_controllers_namespaced.yaml\n'}
+[0.432832] (openarmx_bringup) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_bringup/share/openarmx_bringup/config/v10_controllers/openarm_v10_controllers.yaml\n'}
+[0.436128] (openarmx_bringup) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_bringup/share/ament_index/resource_index/package_run_dependencies/openarmx_bringup\n'}
+[0.441648] (openarmx_description) CommandEnded: {'returncode': 0}
+[0.442000] (openarmx_description) JobProgress: {'identifier': 'openarmx_description', 'progress': 'install'}
+[0.442127] (openarmx_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ws/build/openarmx_description'], 'cwd': '/ws/build/openarmx_description', 'env': OrderedDict([('HOSTNAME', 'sajio-System-Product-Name'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/ws/build/openarmx_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.442864] (openarmx_bringup) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_bringup/share/ament_index/resource_index/parent_prefix_path/openarmx_bringup\n'}
+[0.446046] (openarmx_bringup) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_bringup/share/openarmx_bringup/environment/ament_prefix_path.sh\n'}
+[0.447077] (openarmx_can) StdoutLine: {'line': b'[  5%] Building CXX object CMakeFiles/openarmx_can.dir/src/openarm/canbus/can_socket.cpp.o\n'}
+[0.447177] (openarmx_can) StdoutLine: {'line': b'[ 10%] Building CXX object CMakeFiles/openarmx_can.dir/src/openarm/robstride_motor/rs_motor_device.cpp.o\n'}
+[0.447642] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.447787] (openarmx_can) StdoutLine: {'line': b'[ 15%] Building CXX object CMakeFiles/openarmx_can.dir/src/openarm/can/socket/arm_component.cpp.o\n'}
+[0.447834] (openarmx_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.447876] (openarmx_can) StdoutLine: {'line': b'[ 20%] Building CXX object CMakeFiles/openarmx_can.dir/src/openarm/robstride_motor/rs_motor_device_collection.cpp.o\n'}
+[0.448133] (openarmx_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.448317] (openarmx_can) StdoutLine: {'line': b'[ 25%] Building CXX object CMakeFiles/openarmx_can.dir/src/openarm/robstride_motor/rs_motor_control.cpp.o\n'}
+[0.448510] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/launch/display_openarmx.launch.py\n'}
+[0.448650] (openarmx_can) StdoutLine: {'line': b'[ 30%] Building CXX object CMakeFiles/openarmx_can.dir/src/openarm/can/socket/gripper_component.cpp.o\n'}
+[0.449025] (openarmx_can) StdoutLine: {'line': b'[ 45%] Building CXX object CMakeFiles/openarmx_can.dir/src/openarm/canbus/can_device_collection.cpp.o\n'}
+[0.449096] (openarmx_can) StdoutLine: {'line': b'[ 45%] Building CXX object CMakeFiles/openarmx_can.dir/src/openarm/can/socket/openarm.cpp.o\n'}
+[0.449133] (openarmx_can) StdoutLine: {'line': b'[ 45%] Building CXX object CMakeFiles/openarmx_can.dir/src/openarm/robstride_motor/rs_motor.cpp.o\n'}
+[0.450527] (openarmx_bringup) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_bringup/share/openarmx_bringup/environment/ament_prefix_path.dsv\n'}
+[0.453477] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/collision/link0_symp.stl\n'}
+[0.454333] (openarmx_bringup) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_bringup/share/openarmx_bringup/environment/path.sh\n'}
+[0.458597] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/collision/link1_symp.stl\n'}
+[0.458701] (openarmx_bringup) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_bringup/share/openarmx_bringup/environment/path.dsv\n'}
+[0.462515] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/collision/link2_symp.stl\n'}
+[0.462765] (openarmx_bringup) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_bringup/share/openarmx_bringup/local_setup.bash\n'}
+[0.464250] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.465177] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.466196] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/collision/link3_symp.stl\n'}
+[0.466585] (openarmx_bringup) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_bringup/share/openarmx_bringup/local_setup.sh\n'}
+[0.468605] (openarmx_teach) StdoutLine: {'line': b'running egg_info\n'}
+[0.468733] (openarmx_teach) StdoutLine: {'line': b'creating openarmx_teach.egg-info\n'}
+[0.468781] (openarmx_teach) StdoutLine: {'line': b'writing openarmx_teach.egg-info/PKG-INFO\n'}
+[0.469462] (openarmx_teach) StdoutLine: {'line': b'writing dependency_links to openarmx_teach.egg-info/dependency_links.txt\n'}
+[0.469527] (openarmx_teach) StdoutLine: {'line': b'writing entry points to openarmx_teach.egg-info/entry_points.txt\n'}
+[0.469563] (openarmx_teach) StdoutLine: {'line': b'writing requirements to openarmx_teach.egg-info/requires.txt\n'}
+[0.469586] (openarmx_teach) StdoutLine: {'line': b'writing top-level names to openarmx_teach.egg-info/top_level.txt\n'}
+[0.469606] (openarmx_teach) StdoutLine: {'line': b"writing manifest file 'openarmx_teach.egg-info/SOURCES.txt'\n"}
+[0.469936] (openarmx_teach) StdoutLine: {'line': b"reading manifest file 'openarmx_teach.egg-info/SOURCES.txt'\n"}
+[0.470260] (openarmx_teach) StdoutLine: {'line': b"writing manifest file 'openarmx_teach.egg-info/SOURCES.txt'\n"}
+[0.470380] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/collision/link4_symp.stl\n'}
+[0.471017] (openarmx_teach) StdoutLine: {'line': b'running build_ext\n'}
+[0.471125] (openarmx_teach) StdoutLine: {'line': b'Creating /ws/install/openarmx_teach/lib/python3.10/site-packages/openarmx-teach.egg-link (link to .)\n'}
+[0.471551] (openarmx_teach) StdoutLine: {'line': b'Installing play_joint_trajectory script to /ws/install/openarmx_teach/lib/openarmx_teach\n'}
+[0.471644] (openarmx_teach) StdoutLine: {'line': b'Installing record_joint_states_always script to /ws/install/openarmx_teach/lib/openarmx_teach\n'}
+[0.471724] (openarmx_teach) StdoutLine: {'line': b'Installing record_joint_states_stepbystep script to /ws/install/openarmx_teach/lib/openarmx_teach\n'}
+[0.471815] (openarmx_teach) StdoutLine: {'line': b'\n'}
+[0.471857] (openarmx_teach) StdoutLine: {'line': b'Installed /ws/build/openarmx_teach\n'}
+[0.471895] (openarmx_teach) StdoutLine: {'line': b'running symlink_data\n'}
+[0.472020] (openarmx_teach) StdoutLine: {'line': b'creating /ws/install/openarmx_teach/share/ament_index\n'}
+[0.472062] (openarmx_teach) StdoutLine: {'line': b'creating /ws/install/openarmx_teach/share/ament_index/resource_index\n'}
+[0.472099] (openarmx_teach) StdoutLine: {'line': b'creating /ws/install/openarmx_teach/share/ament_index/resource_index/packages\n'}
+[0.472135] (openarmx_teach) StdoutLine: {'line': b'symbolically linking /ws/build/openarmx_teach/resource/openarmx_teach -> /ws/install/openarmx_teach/share/ament_index/resource_index/packages\n'}
+[0.472171] (openarmx_teach) StdoutLine: {'line': b'symbolically linking /ws/build/openarmx_teach/package.xml -> /ws/install/openarmx_teach/share/openarmx_teach\n'}
+[0.472205] (openarmx_teach) StdoutLine: {'line': b'symbolically linking /ws/build/openarmx_teach/README.md -> /ws/install/openarmx_teach/share/openarmx_teach\n'}
+[0.473562] (openarmx_bringup) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_bringup/share/openarmx_bringup/local_setup.zsh\n'}
+[0.474611] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/collision/link5_symp.stl\n'}
+[0.478813] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/collision/link6_symp.stl\n'}
+[0.480842] (openarmx_bringup) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_bringup/share/openarmx_bringup/local_setup.dsv\n'}
+[0.480954] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.483121] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/collision/link7_symp.stl\n'}
+[0.487259] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/visual/link0.dae\n'}
+[0.487452] (openarmx_bringup) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_bringup/share/openarmx_bringup/package.dsv\n'}
+[0.491787] (openarmx_teach) CommandEnded: {'returncode': 0}
+[0.499802] (-) TimerEvent: {}
+[0.502152] (openarmx_teach) JobEnded: {'identifier': 'openarmx_teach', 'rc': 0}
+[0.502640] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/visual/link0.stl\n'}
+[0.502717] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/visual/link1.dae\n'}
+[0.502763] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/visual/link1.stl\n'}
+[0.502801] (openarmx_gripper_panel) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.502840] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.502874] (openarmx_bringup) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_bringup/share/ament_index/resource_index/packages/openarmx_bringup\n'}
+[0.502915] (openarmx_bringup) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_bringup/share/openarmx_bringup/cmake/openarmx_bringupConfig.cmake\n'}
+[0.503019] (openarmx_kp_kd_panel) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.504122] (openarmx_bringup) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_bringup/share/openarmx_bringup/cmake/openarmx_bringupConfig-version.cmake\n'}
+[0.506310] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/visual/link2.dae\n'}
+[0.508910] (openarmx_bringup) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_bringup/share/openarmx_bringup/package.xml\n'}
+[0.509128] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.511969] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/visual/link2.stl\n'}
+[0.516242] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/visual/link3.dae\n'}
+[0.516605] (openarmx_bringup) CommandEnded: {'returncode': 0}
+[0.522170] (openarmx_bringup) JobEnded: {'identifier': 'openarmx_bringup', 'rc': 0}
+[0.523188] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/visual/link3.stl\n'}
+[0.527510] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/visual/link4.dae\n'}
+[0.533113] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/visual/link4.stl\n'}
+[0.538266] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/visual/link5.dae\n'}
+[0.542762] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/visual/link5.stl\n'}
+[0.547638] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/visual/link6.dae\n'}
+[0.550492] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.550684] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.550792] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.550967] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.554791] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/visual/link6.stl\n'}
+[0.560816] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/visual/link7.dae\n'}
+[0.565076] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/visual/link7.stl\n'}
+[0.570218] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/body/v10/collision/body_link0_symp.stl\n'}
+[0.577125] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/body/v10/visual/body_link0.dae\n'}
+[0.581134] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/body/v10/visual/body_link0.stl\n'}
+[0.585483] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/ee/openarmx_hand/collision/finger.stl\n'}
+[0.591698] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.592358] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/ee/openarmx_hand/collision/hand.stl\n'}
+[0.592605] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.596181] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.596706] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.596903] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/ee/openarmx_hand/visual/finger.dae\n'}
+[0.599899] (-) TimerEvent: {}
+[0.601280] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/ee/openarmx_hand/visual/finger.stl\n'}
+[0.605510] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/ee/openarmx_hand/visual/hand.dae\n'}
+[0.610762] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/rviz/arm_only.rviz\n'}
+[0.618040] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/rviz/bimanual.rviz\n'}
+[0.623406] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/urdf/arm/openarmx_arm.xacro\n'}
+[0.625525] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Found rviz_common: 11.2.25 (/opt/ros/humble/share/rviz_common/cmake)\n'}
+[0.630805] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/urdf/arm/openarmx_macro.xacro\n'}
+[0.635003] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/urdf/body/openarmx_body.xacro\n'}
+[0.635162] (openarmx_kp_kd_panel) StdoutLine: {'line': b"-- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'\n"}
+[0.637174] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.17 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[0.638628] (openarmx_kp_kd_panel) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[0.639229] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/urdf/body/openarmx_body_macro.xacro\n'}
+[0.639486] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Found OGRE\n'}
+[0.639567] (openarmx_kp_kd_panel) StdoutLine: {'line': b'--   static     : OFF\n'}
+[0.639614] (openarmx_kp_kd_panel) StdoutLine: {'line': b'--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[0.639654] (openarmx_kp_kd_panel) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[0.639788] (openarmx_kp_kd_panel) StdoutLine: {'line': b'--   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[0.639829] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[0.639867] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib\n'}
+[0.639908] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[0.639947] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[0.639986] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[0.640027] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[0.640067] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[0.640105] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[0.640221] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Could not find freeimage library\n'}
+[0.643699] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/urdf/ee/ee_with_one_link.xacro\n'}
+[0.646829] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[0.647747] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/urdf/ee/openarmx_hand.xacro\n'}
+[0.648395] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   \n'}
+[0.654008] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/urdf/ee/openarmx_hand_arguments.xacro\n'}
+[0.655773] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[0.655924] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[0.660520] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/urdf/ee/openarmx_hand_macro.xacro\n'}
+[0.664683] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/urdf/robot/openarmx_bimanual_sim.urdf\n'}
+[0.665046] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Found control_msgs: 4.8.0 (/opt/ros/humble/share/control_msgs/cmake)\n'}
+[0.668667] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/urdf/robot/openarmx_robot.xacro\n'}
+[0.675723] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/urdf/robot/v10.urdf.xacro\n'}
+[0.682186] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/urdf/ros2_control/openarmx.bimanual.ros2_control.xacro\n'}
+[0.686402] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/urdf/ros2_control/openarmx.ros2_control.xacro\n'}
+[0.690713] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/config/arm/v10/inertials.yaml\n'}
+[0.693896] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[0.694070] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[0.697953] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/config/arm/v10/joint_limits.yaml\n'}
+[0.699966] (-) TimerEvent: {}
+[0.701886] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/config/arm/v10/kinematics.yaml\n'}
+[0.705859] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/config/arm/v10/kinematics_link.yaml\n'}
+[0.707703] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Found rviz_common: 11.2.25 (/opt/ros/humble/share/rviz_common/cmake)\n'}
+[0.712118] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/config/arm/v10/kinematics_offset.yaml\n'}
+[0.714845] (openarmx_gripper_panel) StdoutLine: {'line': b"-- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'\n"}
+[0.716228] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/config/body/v10/inertials.yaml\n'}
+[0.718094] (openarmx_gripper_panel) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[0.718749] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Found OGRE\n'}
+[0.718815] (openarmx_gripper_panel) StdoutLine: {'line': b'--   static     : OFF\n'}
+[0.718898] (openarmx_gripper_panel) StdoutLine: {'line': b'--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[0.718952] (openarmx_gripper_panel) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[0.719032] (openarmx_gripper_panel) StdoutLine: {'line': b'--   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[0.719083] (openarmx_gripper_panel) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[0.719133] (openarmx_gripper_panel) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib\n'}
+[0.719182] (openarmx_gripper_panel) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[0.719233] (openarmx_gripper_panel) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[0.719304] (openarmx_gripper_panel) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[0.719354] (openarmx_gripper_panel) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[0.719403] (openarmx_gripper_panel) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[0.719460] (openarmx_gripper_panel) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[0.719510] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Could not find freeimage library\n'}
+[0.721777] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/config/body/v10/kinematics.yaml\n'}
+[0.725646] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[0.727074] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   \n'}
+[0.728108] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/config/body/v10/kinematics_link.yaml\n'}
+[0.734518] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[0.734726] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[0.734779] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/config/hand/openarmx_hand/inertials.yaml\n'}
+[0.738094] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[0.738241] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Looking for connect\n'}
+[0.740226] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/config/hand/openarmx_hand/joint_limits.yaml\n'}
+[0.743944] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/config/hand/openarmx_hand/kinematics.yaml\n'}
+[0.747625] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/config/hand/openarmx_hand/kinematics_link.yaml\n'}
+[0.751217] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/ament_index/resource_index/package_run_dependencies/openarmx_description\n'}
+[0.754971] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/ament_index/resource_index/parent_prefix_path/openarmx_description\n'}
+[0.759072] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/environment/ament_prefix_path.sh\n'}
+[0.763551] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/environment/ament_prefix_path.dsv\n'}
+[0.767305] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/environment/path.sh\n'}
+[0.770996] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/environment/path.dsv\n'}
+[0.773386] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[0.773505] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[0.774933] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/local_setup.bash\n'}
+[0.779946] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/local_setup.sh\n'}
+[0.782005] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[0.782151] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Looking for remove\n'}
+[0.784568] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/local_setup.zsh\n'}
+[0.791334] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/local_setup.dsv\n'}
+[0.797403] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/package.dsv\n'}
+[0.800046] (-) TimerEvent: {}
+[0.801953] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/ament_index/resource_index/packages/openarmx_description\n'}
+[0.805681] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/cmake/openarmx_descriptionConfig.cmake\n'}
+[0.809478] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/cmake/openarmx_descriptionConfig-version.cmake\n'}
+[0.810504] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[0.810602] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Looking for connect\n'}
+[0.815482] (openarmx_description) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/package.xml\n'}
+[0.822270] (openarmx_description) CommandEnded: {'returncode': 0}
+[0.831349] (openarmx_description) JobEnded: {'identifier': 'openarmx_description', 'rc': 0}
+[0.832465] (openarmx_bimanual_moveit_config) JobStarted: {'identifier': 'openarmx_bimanual_moveit_config'}
+[0.834621] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[0.834910] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[0.836383] (openarmx_bimanual_moveit_config) JobProgress: {'identifier': 'openarmx_bimanual_moveit_config', 'progress': 'cmake'}
+[0.836624] (openarmx_bimanual_moveit_config) Command: {'cmd': ['/usr/bin/cmake', '/ws/src/openarmx_ros2/openarmx_bimanual_moveit_config', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/ws/install/openarmx_bimanual_moveit_config'], 'cwd': '/ws/build/openarmx_bimanual_moveit_config', 'env': OrderedDict([('HOSTNAME', 'sajio-System-Product-Name'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/ws/install/openarmx_description:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/ws/build/openarmx_bimanual_moveit_config'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ws/install/openarmx_description:/opt/ros/humble')]), 'shell': False}
+[0.857969] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[0.858130] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Looking for remove\n'}
+[0.863981] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[0.864114] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[0.874313] (openarmx_bimanual_moveit_config) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.898149] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[0.898270] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[0.900120] (-) TimerEvent: {}
+[0.906606] (openarmx_bimanual_moveit_config) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.910330] (openarmx_bimanual_moveit_config) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.911712] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[0.943555] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[0.943702] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[0.953319] (openarmx_bimanual_moveit_config) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.956930] (openarmx_bimanual_moveit_config) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.957081] (openarmx_bimanual_moveit_config) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.957228] (openarmx_bimanual_moveit_config) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.958781] (openarmx_bimanual_moveit_config) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.966136] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[0.984259] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[1.000224] (-) TimerEvent: {}
+[1.001801] (openarmx_bimanual_moveit_config) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.004900] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.004998] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.005451] (openarmx_bimanual_moveit_config) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.005600] (openarmx_bimanual_moveit_config) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.005945] (openarmx_bimanual_moveit_config) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.007232] (openarmx_bimanual_moveit_config) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.028821] (openarmx_gripper_panel) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[1.034051] (openarmx_can) StdoutLine: {'line': b'[ 50%] Linking CXX static library libopenarmx_can.a\n'}
+[1.050818] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.050906] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.060995] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.066032] (openarmx_can) StdoutLine: {'line': b'[ 50%] Built target openarmx_can\n'}
+[1.075310] (openarmx_can) StdoutLine: {'line': b'[ 60%] Building CXX object CMakeFiles/motor-check.dir/setup/motor_check.cpp.o\n'}
+[1.075451] (openarmx_can) StdoutLine: {'line': b'[ 60%] Building CXX object CMakeFiles/robstride-demo-full.dir/examples/robstride_demo_full.cpp.o\n'}
+[1.075510] (openarmx_can) StdoutLine: {'line': b'[ 65%] Building CXX object CMakeFiles/robstride-demo.dir/examples/robstride_demo.cpp.o\n'}
+[1.080584] (openarmx_can) StdoutLine: {'line': b'[ 75%] Building CXX object CMakeFiles/robstride-demo-gripper.dir/examples/robstride_demo_gripper.cpp.o\n'}
+[1.080727] (openarmx_can) StdoutLine: {'line': b'[ 75%] Building CXX object CMakeFiles/python-style-test.dir/examples/python_style_test.cpp.o\n'}
+[1.087922] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Found rviz_default_plugins: 11.2.25 (/opt/ros/humble/share/rviz_default_plugins/cmake)\n'}
+[1.100312] (-) TimerEvent: {}
+[1.106895] (openarmx_kp_kd_panel) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.107461] (openarmx_kp_kd_panel) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.107592] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /ws/src/openarmx_tools/openarmx_kp_kd_panel/include;$<BUILD_INTERFACE:/ws/src/openarmx_tools/openarmx_kp_kd_panel/include>\n'}
+[1.107652] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.108036] (openarmx_kp_kd_panel) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.108101] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.108367] (openarmx_kp_kd_panel) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.108886] (openarmx_kp_kd_panel) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.108944] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.109096] (openarmx_kp_kd_panel) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.110322] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.120942] (openarmx_bimanual_moveit_config) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.130155] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Generating done\n'}
+[1.132624] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Build files have been written to: /ws/build/openarmx_kp_kd_panel\n'}
+[1.134742] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.138567] (openarmx_kp_kd_panel) CommandEnded: {'returncode': 0}
+[1.139037] (openarmx_kp_kd_panel) JobProgress: {'identifier': 'openarmx_kp_kd_panel', 'progress': 'build'}
+[1.139370] (openarmx_kp_kd_panel) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ws/build/openarmx_kp_kd_panel', '--', '-j20', '-l20'], 'cwd': '/ws/build/openarmx_kp_kd_panel', 'env': OrderedDict([('HOSTNAME', 'sajio-System-Product-Name'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/ws/build/openarmx_kp_kd_panel'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.153773] (openarmx_bimanual_moveit_config) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.177476] (openarmx_kp_kd_panel) StdoutLine: {'line': b'[ 25%] Automatic MOC and UIC for target openarmx_kp_kd_panel\n'}
+[1.181626] (openarmx_gripper_panel) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.182234] (openarmx_gripper_panel) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.182436] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /ws/src/openarmx_tools/openarmx_gripper_panel/include\n'}
+[1.182496] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.182973] (openarmx_gripper_panel) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.183034] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.183313] (openarmx_gripper_panel) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.183921] (openarmx_gripper_panel) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.183986] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.184145] (openarmx_gripper_panel) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.185555] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.200407] (-) TimerEvent: {}
+[1.201646] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Generating done\n'}
+[1.204615] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Build files have been written to: /ws/build/openarmx_gripper_panel\n'}
+[1.211297] (openarmx_gripper_panel) CommandEnded: {'returncode': 0}
+[1.211782] (openarmx_gripper_panel) JobProgress: {'identifier': 'openarmx_gripper_panel', 'progress': 'build'}
+[1.212102] (openarmx_gripper_panel) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ws/build/openarmx_gripper_panel', '--', '-j20', '-l20'], 'cwd': '/ws/build/openarmx_gripper_panel', 'env': OrderedDict([('HOSTNAME', 'sajio-System-Product-Name'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/ws/build/openarmx_gripper_panel'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.238902] (openarmx_bimanual_moveit_config) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.241093] (openarmx_bimanual_moveit_config) StdoutLine: {'line': b'-- Generating done\n'}
+[1.242355] (openarmx_bimanual_moveit_config) StdoutLine: {'line': b'-- Build files have been written to: /ws/build/openarmx_bimanual_moveit_config\n'}
+[1.246226] (openarmx_bimanual_moveit_config) CommandEnded: {'returncode': 0}
+[1.246524] (openarmx_bimanual_moveit_config) JobProgress: {'identifier': 'openarmx_bimanual_moveit_config', 'progress': 'build'}
+[1.246721] (openarmx_bimanual_moveit_config) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ws/build/openarmx_bimanual_moveit_config', '--', '-j20', '-l20'], 'cwd': '/ws/build/openarmx_bimanual_moveit_config', 'env': OrderedDict([('HOSTNAME', 'sajio-System-Product-Name'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/ws/install/openarmx_description:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/ws/build/openarmx_bimanual_moveit_config'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ws/install/openarmx_description:/opt/ros/humble')]), 'shell': False}
+[1.251393] (openarmx_gripper_panel) StdoutLine: {'line': b'[ 25%] Automatic MOC for target openarmx_gripper_panel\n'}
+[1.272940] (openarmx_bimanual_moveit_config) CommandEnded: {'returncode': 0}
+[1.273379] (openarmx_bimanual_moveit_config) JobProgress: {'identifier': 'openarmx_bimanual_moveit_config', 'progress': 'install'}
+[1.273508] (openarmx_bimanual_moveit_config) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ws/build/openarmx_bimanual_moveit_config'], 'cwd': '/ws/build/openarmx_bimanual_moveit_config', 'env': OrderedDict([('HOSTNAME', 'sajio-System-Product-Name'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/ws/install/openarmx_description:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/ws/build/openarmx_bimanual_moveit_config'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ws/install/openarmx_description:/opt/ros/humble')]), 'shell': False}
+[1.280053] (openarmx_bimanual_moveit_config) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.280364] (openarmx_bimanual_moveit_config) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.280614] (openarmx_bimanual_moveit_config) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_bimanual_moveit_config/share/ament_index/resource_index/package_run_dependencies/openarmx_bimanual_moveit_config\n'}
+[1.287428] (openarmx_bimanual_moveit_config) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_bimanual_moveit_config/share/ament_index/resource_index/parent_prefix_path/openarmx_bimanual_moveit_config\n'}
+[1.294239] (openarmx_bimanual_moveit_config) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_bimanual_moveit_config/share/openarmx_bimanual_moveit_config/environment/ament_prefix_path.sh\n'}
+[1.298319] (openarmx_bimanual_moveit_config) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_bimanual_moveit_config/share/openarmx_bimanual_moveit_config/environment/ament_prefix_path.dsv\n'}
+[1.300473] (-) TimerEvent: {}
+[1.304958] (openarmx_bimanual_moveit_config) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_bimanual_moveit_config/share/openarmx_bimanual_moveit_config/environment/path.sh\n'}
+[1.312357] (openarmx_bimanual_moveit_config) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_bimanual_moveit_config/share/openarmx_bimanual_moveit_config/environment/path.dsv\n'}
+[1.318994] (openarmx_bimanual_moveit_config) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_bimanual_moveit_config/share/openarmx_bimanual_moveit_config/local_setup.bash\n'}
+[1.325463] (openarmx_bimanual_moveit_config) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_bimanual_moveit_config/share/openarmx_bimanual_moveit_config/local_setup.sh\n'}
+[1.332181] (openarmx_bimanual_moveit_config) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_bimanual_moveit_config/share/openarmx_bimanual_moveit_config/local_setup.zsh\n'}
+[1.339475] (openarmx_bimanual_moveit_config) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_bimanual_moveit_config/share/openarmx_bimanual_moveit_config/local_setup.dsv\n'}
+[1.347407] (openarmx_bimanual_moveit_config) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_bimanual_moveit_config/share/openarmx_bimanual_moveit_config/package.dsv\n'}
+[1.354374] (openarmx_bimanual_moveit_config) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_bimanual_moveit_config/share/ament_index/resource_index/packages/openarmx_bimanual_moveit_config\n'}
+[1.361781] (openarmx_bimanual_moveit_config) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_bimanual_moveit_config/share/openarmx_bimanual_moveit_config/cmake/openarmx_bimanual_moveit_configConfig.cmake\n'}
+[1.368706] (openarmx_bimanual_moveit_config) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_bimanual_moveit_config/share/openarmx_bimanual_moveit_config/cmake/openarmx_bimanual_moveit_configConfig-version.cmake\n'}
+[1.372820] (openarmx_bimanual_moveit_config) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_bimanual_moveit_config/share/openarmx_bimanual_moveit_config/package.xml\n'}
+[1.373724] (openarmx_kp_kd_panel) StdoutLine: {'line': b'[ 25%] Built target openarmx_kp_kd_panel_autogen\n'}
+[1.379567] (openarmx_bimanual_moveit_config) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_bimanual_moveit_config/share/openarmx_bimanual_moveit_config/launch/demo.launch.py\n'}
+[1.386413] (openarmx_bimanual_moveit_config) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_bimanual_moveit_config/share/openarmx_bimanual_moveit_config/launch/demo.launch.py.backup\n'}
+[1.386664] (openarmx_kp_kd_panel) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/openarmx_kp_kd_panel.dir/src/kp_kd_panel.cpp.o\n'}
+[1.386825] (openarmx_kp_kd_panel) StdoutLine: {'line': b'[ 75%] Building CXX object CMakeFiles/openarmx_kp_kd_panel.dir/openarmx_kp_kd_panel_autogen/mocs_compilation.cpp.o\n'}
+[1.390704] (openarmx_bimanual_moveit_config) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_bimanual_moveit_config/share/openarmx_bimanual_moveit_config/launch/demo_sim.launch.py\n'}
+[1.397904] (openarmx_bimanual_moveit_config) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_bimanual_moveit_config/share/openarmx_bimanual_moveit_config/launch/motor_config_loader.py\n'}
+[1.400569] (-) TimerEvent: {}
+[1.404902] (openarmx_bimanual_moveit_config) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_bimanual_moveit_config/share/openarmx_bimanual_moveit_config/launch/motor_control.py\n'}
+[1.412004] (openarmx_bimanual_moveit_config) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_bimanual_moveit_config/share/openarmx_bimanual_moveit_config/launch/move_group.launch.py\n'}
+[1.419009] (openarmx_bimanual_moveit_config) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_bimanual_moveit_config/share/openarmx_bimanual_moveit_config/launch/moveit_rviz.launch.py\n'}
+[1.426613] (openarmx_bimanual_moveit_config) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_bimanual_moveit_config/share/openarmx_bimanual_moveit_config/launch/setup_assistant.launch.py\n'}
+[1.434098] (openarmx_bimanual_moveit_config) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_bimanual_moveit_config/share/openarmx_bimanual_moveit_config/launch/spawn_controllers.launch.py\n'}
+[1.441168] (openarmx_bimanual_moveit_config) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_bimanual_moveit_config/share/openarmx_bimanual_moveit_config/launch/static_virtual_joint_tfs.launch.py\n'}
+[1.448352] (openarmx_bimanual_moveit_config) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_bimanual_moveit_config/share/openarmx_bimanual_moveit_config/config/initial_positions.yaml\n'}
+[1.455389] (openarmx_bimanual_moveit_config) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_bimanual_moveit_config/share/openarmx_bimanual_moveit_config/config/joint_limits.yaml\n'}
+[1.461715] (openarmx_gripper_panel) StdoutLine: {'line': b'[ 25%] Built target openarmx_gripper_panel_autogen\n'}
+[1.462394] (openarmx_bimanual_moveit_config) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_bimanual_moveit_config/share/openarmx_bimanual_moveit_config/config/kinematics.yaml\n'}
+[1.468801] (openarmx_bimanual_moveit_config) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_bimanual_moveit_config/share/openarmx_bimanual_moveit_config/config/moveit.rviz\n'}
+[1.475094] (openarmx_gripper_panel) StdoutLine: {'line': b'[ 75%] Building CXX object CMakeFiles/openarmx_gripper_panel.dir/openarmx_gripper_panel_autogen/mocs_compilation.cpp.o\n'}
+[1.475261] (openarmx_gripper_panel) StdoutLine: {'line': b'[ 75%] Building CXX object CMakeFiles/openarmx_gripper_panel.dir/src/gripper_panel.cpp.o\n'}
+[1.475852] (openarmx_bimanual_moveit_config) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_bimanual_moveit_config/share/openarmx_bimanual_moveit_config/config/moveit_controllers.yaml\n'}
+[1.479289] (openarmx_can) StdoutLine: {'line': b'[ 80%] Linking CXX executable motor-check\n'}
+[1.482178] (openarmx_bimanual_moveit_config) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_bimanual_moveit_config/share/openarmx_bimanual_moveit_config/config/openarm_bimanual.srdf\n'}
+[1.483136] (openarmx_can) StdoutLine: {'line': b'[ 85%] Linking CXX executable robstride-demo-full\n'}
+[1.487087] (openarmx_bimanual_moveit_config) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_bimanual_moveit_config/share/openarmx_bimanual_moveit_config/config/openarm_bimanual.urdf.xacro\n'}
+[1.493519] (openarmx_bimanual_moveit_config) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_bimanual_moveit_config/share/openarmx_bimanual_moveit_config/config/pilz_cartesian_limits.yaml\n'}
+[1.499975] (openarmx_bimanual_moveit_config) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_bimanual_moveit_config/share/openarmx_bimanual_moveit_config/config/ros2_controllers.yaml\n'}
+[1.500629] (-) TimerEvent: {}
+[1.503831] (openarmx_bimanual_moveit_config) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_bimanual_moveit_config/share/openarmx_bimanual_moveit_config/config/sensors_3d.yaml\n'}
+[1.511544] (openarmx_bimanual_moveit_config) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_bimanual_moveit_config/share/openarmx_bimanual_moveit_config/.setup_assistant\n'}
+[1.515813] (openarmx_can) StdoutLine: {'line': b'[ 90%] Linking CXX executable python-style-test\n'}
+[1.519646] (openarmx_bimanual_moveit_config) CommandEnded: {'returncode': 0}
+[1.530538] (openarmx_bimanual_moveit_config) JobEnded: {'identifier': 'openarmx_bimanual_moveit_config', 'rc': 0}
+[1.531008] (openarmx_can) StdoutLine: {'line': b'[ 95%] Linking CXX executable robstride-demo-gripper\n'}
+[1.539421] (openarmx_can) StdoutLine: {'line': b'[100%] Linking CXX executable robstride-demo\n'}
+[1.550483] (openarmx_can) StdoutLine: {'line': b'[100%] Built target robstride-demo-full\n'}
+[1.551968] (openarmx_can) StdoutLine: {'line': b'[100%] Built target motor-check\n'}
+[1.576562] (openarmx_can) StdoutLine: {'line': b'[100%] Built target python-style-test\n'}
+[1.600797] (openarmx_can) StdoutLine: {'line': b'[100%] Built target robstride-demo\n'}
+[1.600945] (-) TimerEvent: {}
+[1.602754] (openarmx_can) StdoutLine: {'line': b'[100%] Built target robstride-demo-gripper\n'}
+[1.610970] (openarmx_can) CommandEnded: {'returncode': 0}
+[1.611565] (openarmx_can) JobProgress: {'identifier': 'openarmx_can', 'progress': 'install'}
+[1.611769] (openarmx_can) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ws/build/openarmx_can'], 'cwd': '/ws/build/openarmx_can', 'env': OrderedDict([('HOSTNAME', 'sajio-System-Product-Name'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/ws/build/openarmx_can'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.616968] (openarmx_can) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.617164] (openarmx_can) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.617287] (openarmx_can) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_can/lib/cmake/OpenArmCANOpenArmXCom/OpenArmXCANConfig.cmake\n'}
+[1.623316] (openarmx_can) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_can/lib/cmake/OpenArmCANOpenArmXCom/OpenArmXCANVersion.cmake\n'}
+[1.629685] (openarmx_can) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_can/lib/pkgconfig/openarmx-can.pc\n'}
+[1.636203] (openarmx_can) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_can/include/openarm/can/socket/arm_component.hpp\n'}
+[1.642173] (openarmx_can) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_can/include/openarm/can/socket/gripper_component.hpp\n'}
+[1.646031] (openarmx_can) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_can/include/openarm/can/socket/openarm.hpp\n'}
+[1.652002] (openarmx_can) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_can/include/openarm/canbus/can_device.hpp\n'}
+[1.656744] (openarmx_can) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_can/include/openarm/canbus/can_device_collection.hpp\n'}
+[1.661770] (openarmx_can) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_can/include/openarm/canbus/can_socket.hpp\n'}
+[1.667702] (openarmx_can) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_can/include/openarm/robstride_motor/rs_motor.hpp\n'}
+[1.673607] (openarmx_can) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_can/include/openarm/robstride_motor/rs_motor_constants.hpp\n'}
+[1.678408] (openarmx_can) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_can/include/openarm/robstride_motor/rs_motor_control.hpp\n'}
+[1.684689] (openarmx_can) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_can/include/openarm/robstride_motor/rs_motor_device.hpp\n'}
+[1.689453] (openarmx_can) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_can/include/openarm/robstride_motor/rs_motor_device_collection.hpp\n'}
+[1.696101] (openarmx_can) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_can/lib/openarmx_can/robstride-demo\n'}
+[1.701027] (-) TimerEvent: {}
+[1.702209] (openarmx_can) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_can/lib/openarmx_can/python-style-test\n'}
+[1.708245] (openarmx_can) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_can/lib/openarmx_can/robstride-demo-full\n'}
+[1.714237] (openarmx_can) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_can/lib/openarmx_can/robstride-demo-gripper\n'}
+[1.718925] (openarmx_can) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_can/lib/openarmx_can/motor-check\n'}
+[1.724299] (openarmx_can) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_can/lib/cmake/openarmx_can/openarmx_canConfig.cmake\n'}
+[1.730389] (openarmx_can) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_can/share/openarmx_can/environment/library_path.sh\n'}
+[1.736630] (openarmx_can) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_can/share/openarmx_can/environment/library_path.dsv\n'}
+[1.742712] (openarmx_can) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_can/share/ament_index/resource_index/package_run_dependencies/openarmx_can\n'}
+[1.746524] (openarmx_can) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_can/share/ament_index/resource_index/parent_prefix_path/openarmx_can\n'}
+[1.752694] (openarmx_can) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_can/share/openarmx_can/environment/ament_prefix_path.sh\n'}
+[1.758156] (openarmx_can) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_can/share/openarmx_can/environment/ament_prefix_path.dsv\n'}
+[1.764081] (openarmx_can) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_can/share/openarmx_can/environment/path.sh\n'}
+[1.770248] (openarmx_can) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_can/share/openarmx_can/environment/path.dsv\n'}
+[1.776294] (openarmx_can) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_can/share/openarmx_can/local_setup.bash\n'}
+[1.782526] (openarmx_can) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_can/share/openarmx_can/local_setup.sh\n'}
+[1.786684] (openarmx_can) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_can/share/openarmx_can/local_setup.zsh\n'}
+[1.792781] (openarmx_can) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_can/share/openarmx_can/local_setup.dsv\n'}
+[1.799003] (openarmx_can) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_can/share/openarmx_can/package.dsv\n'}
+[1.801101] (-) TimerEvent: {}
+[1.804854] (openarmx_can) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_can/share/ament_index/resource_index/packages/openarmx_can\n'}
+[1.809232] (openarmx_can) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_can/share/openarmx_can/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.815342] (openarmx_can) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_can/share/openarmx_can/cmake/openarmx_canConfig.cmake\n'}
+[1.821424] (openarmx_can) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_can/share/openarmx_can/cmake/openarmx_canConfig-version.cmake\n'}
+[1.826303] (openarmx_can) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_can/share/openarmx_can/package.xml\n'}
+[1.832624] (openarmx_can) StdoutLine: {'line': b'-- Installing: /ws/install/openarmx_can/lib/libopenarmx_can.a\n'}
+[1.833219] (openarmx_can) StdoutLine: {'line': b'-- Installing: /ws/install/openarmx_can/lib/cmake/OpenArmCANOpenArmXCom/OpenArmCANOpenArmXComTargets.cmake\n'}
+[1.833412] (openarmx_can) StdoutLine: {'line': b'-- Installing: /ws/install/openarmx_can/lib/cmake/OpenArmCANOpenArmXCom/OpenArmCANOpenArmXComTargets-noconfig.cmake\n'}
+[1.833542] (openarmx_can) StdoutLine: {'line': b'-- Up-to-date: /ws/install/openarmx_can/lib/libopenarmx_can.a\n'}
+[1.833596] (openarmx_can) StdoutLine: {'line': b'-- Installing: /ws/install/openarmx_can/lib/cmake/openarmx_can/openarmx_canTargets.cmake\n'}
+[1.833648] (openarmx_can) StdoutLine: {'line': b'-- Installing: /ws/install/openarmx_can/lib/cmake/openarmx_can/openarmx_canTargets-noconfig.cmake\n'}
+[1.833710] (openarmx_can) StdoutLine: {'line': b'-- Installing: /ws/install/openarmx_can/share/openarmx_can/cmake/openarmx_canTargetsExport.cmake\n'}
+[1.833773] (openarmx_can) StdoutLine: {'line': b'-- Installing: /ws/install/openarmx_can/share/openarmx_can/cmake/openarmx_canTargetsExport-noconfig.cmake\n'}
+[1.834358] (openarmx_can) CommandEnded: {'returncode': 0}
+[1.844711] (openarmx_can) JobEnded: {'identifier': 'openarmx_can', 'rc': 0}
+[1.845387] (openarmx_hardware) JobStarted: {'identifier': 'openarmx_hardware'}
+[1.847779] (openarmx_teleop_leader) JobStarted: {'identifier': 'openarmx_teleop_leader'}
+[1.851376] (openarmx_hardware) JobProgress: {'identifier': 'openarmx_hardware', 'progress': 'cmake'}
+[1.851599] (openarmx_hardware) Command: {'cmd': ['/usr/bin/cmake', '/ws/src/openarmx_ros2/openarmx_hardware', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/ws/install/openarmx_hardware'], 'cwd': '/ws/build/openarmx_hardware', 'env': OrderedDict([('HOSTNAME', 'sajio-System-Product-Name'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ws/install/openarmx_can/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/ws/install/openarmx_can:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/ws/build/openarmx_hardware'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ws/install/openarmx_can:/opt/ros/humble')]), 'shell': False}
+[1.853102] (openarmx_teleop_leader) JobProgress: {'identifier': 'openarmx_teleop_leader', 'progress': 'cmake'}
+[1.853460] (openarmx_teleop_leader) Command: {'cmd': ['/usr/bin/cmake', '/ws/src/openarmx_teleop_leader', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/ws/install/openarmx_teleop_leader'], 'cwd': '/ws/build/openarmx_teleop_leader', 'env': OrderedDict([('HOSTNAME', 'sajio-System-Product-Name'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ws/install/openarmx_can/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/ws/install/openarmx_can:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/ws/build/openarmx_teleop_leader'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ws/install/openarmx_can:/opt/ros/humble')]), 'shell': False}
+[1.887244] (openarmx_hardware) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.894015] (openarmx_teleop_leader) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.901194] (-) TimerEvent: {}
+[1.917607] (openarmx_hardware) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.921521] (openarmx_hardware) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.929641] (openarmx_teleop_leader) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.933446] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.959365] (openarmx_hardware) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.965697] (openarmx_hardware) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.965864] (openarmx_hardware) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.966163] (openarmx_hardware) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.968118] (openarmx_hardware) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.983543] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.989927] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.990143] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.990418] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.992959] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.001292] (-) TimerEvent: {}
+[2.020538] (openarmx_hardware) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.027091] (openarmx_hardware) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.027272] (openarmx_hardware) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.027669] (openarmx_hardware) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.030207] (openarmx_hardware) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.045407] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.051902] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.052066] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.052444] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.055016] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.101383] (-) TimerEvent: {}
+[2.132408] (openarmx_hardware) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.171812] (openarmx_hardware) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.178255] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.189868] (openarmx_hardware) StdoutLine: {'line': b'-- Found hardware_interface: 2.53.1 (/opt/ros/humble/share/hardware_interface/cmake)\n'}
+[2.201474] (-) TimerEvent: {}
+[2.210761] (openarmx_hardware) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.213608] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.213702] (openarmx_hardware) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.218162] (openarmx_hardware) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.224588] (openarmx_hardware) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.231084] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.233121] (openarmx_hardware) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.253718] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.256425] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.261126] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.267645] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.276494] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.300569] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.301530] (-) TimerEvent: {}
+[2.301961] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.346248] (openarmx_hardware) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.347694] (openarmx_hardware) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.353908] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.362338] (openarmx_hardware) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[2.370396] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.396153] (openarmx_hardware) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.397926] (openarmx_hardware) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[2.401190] (openarmx_teleop_leader) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.401600] (-) TimerEvent: {}
+[2.405937] (openarmx_hardware) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.406145] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.408184] (openarmx_hardware) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[2.414095] (openarmx_hardware) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[2.421457] (openarmx_hardware) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.429831] (openarmx_hardware) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.453099] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.453283] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.473618] (openarmx_hardware) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.473759] (openarmx_hardware) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.499006] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.499581] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.501682] (-) TimerEvent: {}
+[2.514275] (openarmx_hardware) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.514839] (openarmx_hardware) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.527633] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)\n'}
+[2.546979] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Found kdl_parser: 2.6.4 (/opt/ros/humble/share/kdl_parser/cmake)\n'}
+[2.549319] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[2.550032] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[2.550162] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.553571] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.580522] (openarmx_hardware) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.586655] (openarmx_hardware) StdoutLine: {'line': b'-- Generating done\n'}
+[2.588654] (openarmx_hardware) StdoutLine: {'line': b'-- Build files have been written to: /ws/build/openarmx_hardware\n'}
+[2.593292] (openarmx_hardware) CommandEnded: {'returncode': 0}
+[2.593685] (openarmx_hardware) JobProgress: {'identifier': 'openarmx_hardware', 'progress': 'build'}
+[2.593927] (openarmx_hardware) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ws/build/openarmx_hardware', '--', '-j20', '-l20'], 'cwd': '/ws/build/openarmx_hardware', 'env': OrderedDict([('HOSTNAME', 'sajio-System-Product-Name'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ws/install/openarmx_can/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/ws/install/openarmx_can:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/ws/build/openarmx_hardware'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ws/install/openarmx_can:/opt/ros/humble')]), 'shell': False}
+[2.601813] (-) TimerEvent: {}
+[2.616256] (openarmx_teleop_leader) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.616477] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /ws/src/openarmx_teleop_leader/include\n'}
+[2.616539] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.616933] (openarmx_teleop_leader) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.617677] (openarmx_teleop_leader) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.618161] (openarmx_teleop_leader) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.620734] (openarmx_teleop_leader) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.620812] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.621271] (openarmx_teleop_leader) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.621928] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.629124] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Generating done\n'}
+[2.631590] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Build files have been written to: /ws/build/openarmx_teleop_leader\n'}
+[2.636004] (openarmx_hardware) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/openarmx_hardware.dir/src/v10_simple_hardware.cpp.o\n'}
+[2.636141] (openarmx_teleop_leader) CommandEnded: {'returncode': 0}
+[2.636467] (openarmx_teleop_leader) JobProgress: {'identifier': 'openarmx_teleop_leader', 'progress': 'build'}
+[2.636694] (openarmx_teleop_leader) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ws/build/openarmx_teleop_leader', '--', '-j20', '-l20'], 'cwd': '/ws/build/openarmx_teleop_leader', 'env': OrderedDict([('HOSTNAME', 'sajio-System-Product-Name'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ws/install/openarmx_can/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/ws/install/openarmx_can:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/ws/build/openarmx_teleop_leader'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ws/install/openarmx_can:/opt/ros/humble')]), 'shell': False}
+[2.671812] (openarmx_teleop_leader) StdoutLine: {'line': b'[ 16%] Building CXX object CMakeFiles/teleop_leader_node.dir/src/teleop_leader_node.cpp.o\n'}
+[2.673215] (openarmx_teleop_leader) StdoutLine: {'line': b'[ 33%] Building CXX object CMakeFiles/openarmx_teleop_leader_dynamics.dir/src/dynamics.cpp.o\n'}
+[2.701915] (-) TimerEvent: {}
+[2.802094] (-) TimerEvent: {}
+[2.902278] (-) TimerEvent: {}
+[3.002453] (-) TimerEvent: {}
+[3.102631] (-) TimerEvent: {}
+[3.202801] (-) TimerEvent: {}
+[3.302974] (-) TimerEvent: {}
+[3.403149] (-) TimerEvent: {}
+[3.503319] (-) TimerEvent: {}
+[3.576814] (openarmx_teleop_leader) StderrLine: {'line': b'/ws/src/openarmx_teleop_leader/src/dynamics.cpp: In member function \xe2\x80\x98void Dynamics::GetGravity(const double*, double*)\xe2\x80\x99:\n'}
+[3.576988] (openarmx_teleop_leader) StderrLine: {'line': b'/ws/src/openarmx_teleop_leader/src/dynamics.cpp:83:20: warning: unused variable \xe2\x80\x98njoints\xe2\x80\x99 [-Wunused-variable]\n'}
+[3.577047] (openarmx_teleop_leader) StderrLine: {'line': b'   83 |         const auto njoints = kdl_chain.getNrOfJoints();\n'}
+[3.577098] (openarmx_teleop_leader) StderrLine: {'line': b'      |                    ^~~~~~~\n'}
+[3.603415] (-) TimerEvent: {}
+[3.703583] (-) TimerEvent: {}
+[3.790746] (openarmx_kp_kd_panel) StdoutLine: {'line': b'[100%] Linking CXX shared library libopenarmx_kp_kd_panel.so\n'}
+[3.803681] (-) TimerEvent: {}
+[3.903883] (-) TimerEvent: {}
+[4.004070] (-) TimerEvent: {}
+[4.104261] (-) TimerEvent: {}
+[4.131262] (openarmx_gripper_panel) StdoutLine: {'line': b'[100%] Linking CXX shared library libopenarmx_gripper_panel.so\n'}
+[4.204372] (-) TimerEvent: {}
+[4.304572] (-) TimerEvent: {}
+[4.404783] (-) TimerEvent: {}
+[4.504982] (-) TimerEvent: {}
+[4.605179] (-) TimerEvent: {}
+[4.705405] (-) TimerEvent: {}
+[4.790708] (openarmx_kp_kd_panel) StdoutLine: {'line': b'[100%] Built target openarmx_kp_kd_panel\n'}
+[4.799511] (openarmx_kp_kd_panel) CommandEnded: {'returncode': 0}
+[4.800049] (openarmx_kp_kd_panel) JobProgress: {'identifier': 'openarmx_kp_kd_panel', 'progress': 'install'}
+[4.800372] (openarmx_kp_kd_panel) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ws/build/openarmx_kp_kd_panel'], 'cwd': '/ws/build/openarmx_kp_kd_panel', 'env': OrderedDict([('HOSTNAME', 'sajio-System-Product-Name'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/ws/build/openarmx_kp_kd_panel'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.805481] (-) TimerEvent: {}
+[4.806043] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.806291] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[4.806419] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_kp_kd_panel/share/openarmx_kp_kd_panel//plugin_description.xml\n'}
+[4.813043] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_kp_kd_panel/lib/libopenarmx_kp_kd_panel.so\n'}
+[4.820389] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_kp_kd_panel/include/openarmx_kp_kd_panel/kp_kd_panel.hpp\n'}
+[4.827156] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/openarmx_kp_kd_panel/share/openarmx_kp_kd_panel/plugin_description.xml\n'}
+[4.827303] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_kp_kd_panel/share/openarmx_kp_kd_panel/environment/library_path.sh\n'}
+[4.834442] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_kp_kd_panel/share/openarmx_kp_kd_panel/environment/library_path.dsv\n'}
+[4.841903] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_kp_kd_panel/share/ament_index/resource_index/package_run_dependencies/openarmx_kp_kd_panel\n'}
+[4.849703] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_kp_kd_panel/share/ament_index/resource_index/parent_prefix_path/openarmx_kp_kd_panel\n'}
+[4.853430] (openarmx_hardware) StdoutLine: {'line': b'[100%] Linking CXX shared library libopenarmx_hardware.so\n'}
+[4.854442] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_kp_kd_panel/share/openarmx_kp_kd_panel/environment/ament_prefix_path.sh\n'}
+[4.861359] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_kp_kd_panel/share/openarmx_kp_kd_panel/environment/ament_prefix_path.dsv\n'}
+[4.866747] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_kp_kd_panel/share/openarmx_kp_kd_panel/environment/path.sh\n'}
+[4.873052] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_kp_kd_panel/share/openarmx_kp_kd_panel/environment/path.dsv\n'}
+[4.880276] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_kp_kd_panel/share/openarmx_kp_kd_panel/local_setup.bash\n'}
+[4.887280] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_kp_kd_panel/share/openarmx_kp_kd_panel/local_setup.sh\n'}
+[4.893472] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_kp_kd_panel/share/openarmx_kp_kd_panel/local_setup.zsh\n'}
+[4.900432] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_kp_kd_panel/share/openarmx_kp_kd_panel/local_setup.dsv\n'}
+[4.905553] (-) TimerEvent: {}
+[4.907455] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_kp_kd_panel/share/openarmx_kp_kd_panel/package.dsv\n'}
+[4.913318] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_kp_kd_panel/share/ament_index/resource_index/packages/openarmx_kp_kd_panel\n'}
+[4.917883] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_kp_kd_panel/share/ament_index/resource_index/rviz_common__pluginlib__plugin/openarmx_kp_kd_panel\n'}
+[4.926090] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_kp_kd_panel/share/openarmx_kp_kd_panel/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.932868] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_kp_kd_panel/share/openarmx_kp_kd_panel/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.938353] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_kp_kd_panel/share/openarmx_kp_kd_panel/cmake/openarmx_kp_kd_panelConfig.cmake\n'}
+[4.945696] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_kp_kd_panel/share/openarmx_kp_kd_panel/cmake/openarmx_kp_kd_panelConfig-version.cmake\n'}
+[4.952968] (openarmx_kp_kd_panel) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_kp_kd_panel/share/openarmx_kp_kd_panel/package.xml\n'}
+[4.959549] (openarmx_kp_kd_panel) CommandEnded: {'returncode': 0}
+[4.972408] (openarmx_kp_kd_panel) JobEnded: {'identifier': 'openarmx_kp_kd_panel', 'rc': 0}
+[4.993731] (openarmx_hardware) StdoutLine: {'line': b'[100%] Built target openarmx_hardware\n'}
+[5.001757] (openarmx_hardware) CommandEnded: {'returncode': 0}
+[5.002118] (openarmx_hardware) JobProgress: {'identifier': 'openarmx_hardware', 'progress': 'install'}
+[5.002249] (openarmx_hardware) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ws/build/openarmx_hardware'], 'cwd': '/ws/build/openarmx_hardware', 'env': OrderedDict([('HOSTNAME', 'sajio-System-Product-Name'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ws/install/openarmx_can/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/ws/install/openarmx_can:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/ws/build/openarmx_hardware'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ws/install/openarmx_can:/opt/ros/humble')]), 'shell': False}
+[5.005636] (-) TimerEvent: {}
+[5.009253] (openarmx_hardware) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.009590] (openarmx_hardware) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.009841] (openarmx_hardware) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_hardware/share/openarmx_hardware//openarmx_hardware.xml\n'}
+[5.015593] (openarmx_hardware) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_hardware/lib/libopenarmx_hardware.so\n'}
+[5.021621] (openarmx_hardware) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_hardware/include/openarmx_hardware/v10_simple_hardware.hpp\n'}
+[5.029193] (openarmx_hardware) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_hardware/include/openarmx_hardware/visibility_control.h\n'}
+[5.035134] (openarmx_hardware) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_hardware/share/openarmx_hardware/environment/library_path.sh\n'}
+[5.041246] (openarmx_hardware) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_hardware/share/openarmx_hardware/environment/library_path.dsv\n'}
+[5.048990] (openarmx_hardware) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_hardware/share/ament_index/resource_index/package_run_dependencies/openarmx_hardware\n'}
+[5.054878] (openarmx_hardware) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_hardware/share/ament_index/resource_index/parent_prefix_path/openarmx_hardware\n'}
+[5.061092] (openarmx_hardware) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_hardware/share/openarmx_hardware/environment/ament_prefix_path.sh\n'}
+[5.068650] (openarmx_hardware) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_hardware/share/openarmx_hardware/environment/ament_prefix_path.dsv\n'}
+[5.074612] (openarmx_hardware) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_hardware/share/openarmx_hardware/environment/path.sh\n'}
+[5.080849] (openarmx_hardware) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_hardware/share/openarmx_hardware/environment/path.dsv\n'}
+[5.088116] (openarmx_hardware) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_hardware/share/openarmx_hardware/local_setup.bash\n'}
+[5.093011] (openarmx_hardware) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_hardware/share/openarmx_hardware/local_setup.sh\n'}
+[5.099795] (openarmx_hardware) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_hardware/share/openarmx_hardware/local_setup.zsh\n'}
+[5.105737] (-) TimerEvent: {}
+[5.106891] (openarmx_hardware) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_hardware/share/openarmx_hardware/local_setup.dsv\n'}
+[5.113861] (openarmx_hardware) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_hardware/share/openarmx_hardware/package.dsv\n'}
+[5.120892] (openarmx_hardware) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_hardware/share/ament_index/resource_index/packages/openarmx_hardware\n'}
+[5.126502] (openarmx_hardware) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/openarmx_hardware\n'}
+[5.133306] (openarmx_hardware) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_hardware/share/openarmx_hardware/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.140112] (openarmx_hardware) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_hardware/share/openarmx_hardware/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.144593] (openarmx_hardware) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_hardware/share/openarmx_hardware/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.151073] (openarmx_hardware) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_hardware/share/openarmx_hardware/cmake/openarmx_hardwareConfig.cmake\n'}
+[5.155317] (openarmx_hardware) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_hardware/share/openarmx_hardware/cmake/openarmx_hardwareConfig-version.cmake\n'}
+[5.161976] (openarmx_hardware) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_hardware/share/openarmx_hardware/package.xml\n'}
+[5.167630] (openarmx_hardware) CommandEnded: {'returncode': 0}
+[5.174697] (openarmx_hardware) JobEnded: {'identifier': 'openarmx_hardware', 'rc': 0}
+[5.175405] (openarmx) JobStarted: {'identifier': 'openarmx'}
+[5.182436] (openarmx) JobProgress: {'identifier': 'openarmx', 'progress': 'cmake'}
+[5.182887] (openarmx) Command: {'cmd': ['/usr/bin/cmake', '/ws/src/openarmx_ros2/openarmx', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/ws/install/openarmx'], 'cwd': '/ws/build/openarmx', 'env': OrderedDict([('HOSTNAME', 'sajio-System-Product-Name'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ws/install/openarmx_hardware/lib:/ws/install/openarmx_can/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/ws/install/openarmx_hardware:/ws/install/openarmx_description:/ws/install/openarmx_can:/ws/install/openarmx_bringup:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/ws/build/openarmx'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ws/install/openarmx_hardware:/ws/install/openarmx_description:/ws/install/openarmx_can:/ws/install/openarmx_bringup:/opt/ros/humble')]), 'shell': False}
+[5.205787] (-) TimerEvent: {}
+[5.221785] (openarmx) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[5.224456] (openarmx_teleop_leader) StdoutLine: {'line': b'[ 50%] Linking CXX executable teleop_leader_node\n'}
+[5.258222] (openarmx) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[5.263400] (openarmx) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.277398] (openarmx_gripper_panel) StdoutLine: {'line': b'[100%] Built target openarmx_gripper_panel\n'}
+[5.284100] (openarmx_gripper_panel) CommandEnded: {'returncode': 0}
+[5.284533] (openarmx_gripper_panel) JobProgress: {'identifier': 'openarmx_gripper_panel', 'progress': 'install'}
+[5.284801] (openarmx_gripper_panel) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ws/build/openarmx_gripper_panel'], 'cwd': '/ws/build/openarmx_gripper_panel', 'env': OrderedDict([('HOSTNAME', 'sajio-System-Product-Name'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/ws/build/openarmx_gripper_panel'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.291228] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.291449] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.291654] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_gripper_panel/include/openarmx_gripper_panel/gripper_panel.hpp\n'}
+[5.296570] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/plugin_description.xml\n'}
+[5.303038] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/resource/openarmx_gripper_panel\n'}
+[5.305868] (-) TimerEvent: {}
+[5.307115] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/plugins/plugin_description.xml\n'}
+[5.309977] (openarmx) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.313475] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/environment/library_path.sh\n'}
+[5.313646] (openarmx) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[5.313743] (openarmx) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.313909] (openarmx) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.315451] (openarmx) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.319912] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/environment/library_path.dsv\n'}
+[5.326827] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_gripper_panel/share/ament_index/resource_index/package_run_dependencies/openarmx_gripper_panel\n'}
+[5.332022] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_gripper_panel/share/ament_index/resource_index/parent_prefix_path/openarmx_gripper_panel\n'}
+[5.338738] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/environment/ament_prefix_path.sh\n'}
+[5.344418] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/environment/ament_prefix_path.dsv\n'}
+[5.351033] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/environment/path.sh\n'}
+[5.352723] (openarmx_teleop_leader) StdoutLine: {'line': b'[ 50%] Built target teleop_leader_node\n'}
+[5.357149] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/environment/path.dsv\n'}
+[5.361748] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/local_setup.bash\n'}
+[5.364269] (openarmx) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.365975] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/local_setup.sh\n'}
+[5.368030] (openarmx) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.368167] (openarmx) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.368412] (openarmx) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.369937] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/local_setup.zsh\n'}
+[5.370012] (openarmx) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[5.375311] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/local_setup.dsv\n'}
+[5.379801] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/package.dsv\n'}
+[5.384594] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_gripper_panel/share/ament_index/resource_index/packages/openarmx_gripper_panel\n'}
+[5.388876] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_gripper_panel/share/ament_index/resource_index/rviz_common__pluginlib__plugin/openarmx_gripper_panel\n'}
+[5.394921] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.398846] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.404465] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.405936] (-) TimerEvent: {}
+[5.409033] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/cmake/openarmx_gripper_panelConfig.cmake\n'}
+[5.414535] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/cmake/openarmx_gripper_panelConfig-version.cmake\n'}
+[5.420334] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_gripper_panel/share/openarmx_gripper_panel/package.xml\n'}
+[5.426141] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Installing: /ws/install/openarmx_gripper_panel/lib/libopenarmx_gripper_panel.so\n'}
+[5.426944] (openarmx_gripper_panel) StdoutLine: {'line': b'-- Set runtime path of "/ws/install/openarmx_gripper_panel/lib/libopenarmx_gripper_panel.so" to ""\n'}
+[5.427725] (openarmx_gripper_panel) CommandEnded: {'returncode': 0}
+[5.437246] (openarmx_gripper_panel) JobEnded: {'identifier': 'openarmx_gripper_panel', 'rc': 0}
+[5.459137] (openarmx) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[5.492393] (openarmx) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[5.506024] (-) TimerEvent: {}
+[5.545824] (openarmx) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.546793] (openarmx) StdoutLine: {'line': b'-- Generating done\n'}
+[5.547415] (openarmx) StdoutLine: {'line': b'-- Build files have been written to: /ws/build/openarmx\n'}
+[5.549560] (openarmx) CommandEnded: {'returncode': 0}
+[5.549921] (openarmx) JobProgress: {'identifier': 'openarmx', 'progress': 'build'}
+[5.550130] (openarmx) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ws/build/openarmx', '--', '-j20', '-l20'], 'cwd': '/ws/build/openarmx', 'env': OrderedDict([('HOSTNAME', 'sajio-System-Product-Name'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ws/install/openarmx_hardware/lib:/ws/install/openarmx_can/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/ws/install/openarmx_hardware:/ws/install/openarmx_description:/ws/install/openarmx_can:/ws/install/openarmx_bringup:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/ws/build/openarmx'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ws/install/openarmx_hardware:/ws/install/openarmx_description:/ws/install/openarmx_can:/ws/install/openarmx_bringup:/opt/ros/humble')]), 'shell': False}
+[5.572970] (openarmx) CommandEnded: {'returncode': 0}
+[5.573377] (openarmx) JobProgress: {'identifier': 'openarmx', 'progress': 'install'}
+[5.573585] (openarmx) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ws/build/openarmx'], 'cwd': '/ws/build/openarmx', 'env': OrderedDict([('HOSTNAME', 'sajio-System-Product-Name'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ws/install/openarmx_hardware/lib:/ws/install/openarmx_can/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/ws/install/openarmx_hardware:/ws/install/openarmx_description:/ws/install/openarmx_can:/ws/install/openarmx_bringup:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/ws/build/openarmx'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ws/install/openarmx_hardware:/ws/install/openarmx_description:/ws/install/openarmx_can:/ws/install/openarmx_bringup:/opt/ros/humble')]), 'shell': False}
+[5.579437] (openarmx) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.579789] (openarmx) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.580025] (openarmx) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx/share/ament_index/resource_index/package_run_dependencies/openarmx\n'}
+[5.585109] (openarmx) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx/share/ament_index/resource_index/parent_prefix_path/openarmx\n'}
+[5.590023] (openarmx) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx/share/openarmx/environment/ament_prefix_path.sh\n'}
+[5.593917] (openarmx) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx/share/openarmx/environment/ament_prefix_path.dsv\n'}
+[5.599715] (openarmx) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx/share/openarmx/environment/path.sh\n'}
+[5.605771] (openarmx) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx/share/openarmx/environment/path.dsv\n'}
+[5.606080] (-) TimerEvent: {}
+[5.610379] (openarmx) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx/share/openarmx/local_setup.bash\n'}
+[5.614027] (openarmx) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx/share/openarmx/local_setup.sh\n'}
+[5.619969] (openarmx) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx/share/openarmx/local_setup.zsh\n'}
+[5.625767] (openarmx) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx/share/openarmx/local_setup.dsv\n'}
+[5.630052] (openarmx) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx/share/openarmx/package.dsv\n'}
+[5.633810] (openarmx) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx/share/ament_index/resource_index/packages/openarmx\n'}
+[5.639277] (openarmx) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx/share/openarmx/cmake/openarmxConfig.cmake\n'}
+[5.644711] (openarmx) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx/share/openarmx/cmake/openarmxConfig-version.cmake\n'}
+[5.649594] (openarmx) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx/share/openarmx/package.xml\n'}
+[5.654393] (openarmx) CommandEnded: {'returncode': 0}
+[5.659494] (openarmx) JobEnded: {'identifier': 'openarmx', 'rc': 0}
+[5.706188] (-) TimerEvent: {}
+[5.806363] (-) TimerEvent: {}
+[5.906539] (-) TimerEvent: {}
+[6.006779] (-) TimerEvent: {}
+[6.106982] (-) TimerEvent: {}
+[6.207151] (-) TimerEvent: {}
+[6.307398] (-) TimerEvent: {}
+[6.407571] (-) TimerEvent: {}
+[6.507738] (-) TimerEvent: {}
+[6.607909] (-) TimerEvent: {}
+[6.708070] (-) TimerEvent: {}
+[6.808230] (-) TimerEvent: {}
+[6.908435] (-) TimerEvent: {}
+[7.008636] (-) TimerEvent: {}
+[7.108832] (-) TimerEvent: {}
+[7.208997] (-) TimerEvent: {}
+[7.309158] (-) TimerEvent: {}
+[7.409319] (-) TimerEvent: {}
+[7.509509] (-) TimerEvent: {}
+[7.609693] (-) TimerEvent: {}
+[7.709858] (-) TimerEvent: {}
+[7.810016] (-) TimerEvent: {}
+[7.910175] (-) TimerEvent: {}
+[8.010336] (-) TimerEvent: {}
+[8.110581] (-) TimerEvent: {}
+[8.198929] (openarmx_teleop_leader) StdoutLine: {'line': b'[ 66%] Linking CXX static library libopenarmx_teleop_leader_dynamics.a\n'}
+[8.210665] (-) TimerEvent: {}
+[8.267476] (openarmx_teleop_leader) StdoutLine: {'line': b'[ 66%] Built target openarmx_teleop_leader_dynamics\n'}
+[8.280344] (openarmx_teleop_leader) StdoutLine: {'line': b'[ 83%] Building CXX object CMakeFiles/teleop_leader_with_gravitycomp_single.dir/src/teleop_leader_with_gravitycomp_single.cpp.o\n'}
+[8.310771] (-) TimerEvent: {}
+[8.410901] (-) TimerEvent: {}
+[8.511037] (-) TimerEvent: {}
+[8.611171] (-) TimerEvent: {}
+[8.711306] (-) TimerEvent: {}
+[8.811445] (-) TimerEvent: {}
+[8.911585] (-) TimerEvent: {}
+[9.011730] (-) TimerEvent: {}
+[9.111892] (-) TimerEvent: {}
+[9.212036] (-) TimerEvent: {}
+[9.312176] (-) TimerEvent: {}
+[9.412316] (-) TimerEvent: {}
+[9.512460] (-) TimerEvent: {}
+[9.612612] (-) TimerEvent: {}
+[9.712760] (-) TimerEvent: {}
+[9.812892] (-) TimerEvent: {}
+[9.913045] (-) TimerEvent: {}
+[10.013189] (-) TimerEvent: {}
+[10.113323] (-) TimerEvent: {}
+[10.213457] (-) TimerEvent: {}
+[10.313600] (-) TimerEvent: {}
+[10.413734] (-) TimerEvent: {}
+[10.513880] (-) TimerEvent: {}
+[10.614017] (-) TimerEvent: {}
+[10.714146] (-) TimerEvent: {}
+[10.814271] (-) TimerEvent: {}
+[10.914399] (-) TimerEvent: {}
+[11.014528] (-) TimerEvent: {}
+[11.114657] (-) TimerEvent: {}
+[11.214788] (-) TimerEvent: {}
+[11.245569] (openarmx_teleop_leader) StdoutLine: {'line': b'[100%] Linking CXX executable teleop_leader_with_gravitycomp_single\n'}
+[11.314879] (-) TimerEvent: {}
+[11.415026] (-) TimerEvent: {}
+[11.496995] (openarmx_teleop_leader) StdoutLine: {'line': b'[100%] Built target teleop_leader_with_gravitycomp_single\n'}
+[11.503679] (openarmx_teleop_leader) CommandEnded: {'returncode': 0}
+[11.504091] (openarmx_teleop_leader) JobProgress: {'identifier': 'openarmx_teleop_leader', 'progress': 'install'}
+[11.504295] (openarmx_teleop_leader) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ws/build/openarmx_teleop_leader'], 'cwd': '/ws/build/openarmx_teleop_leader', 'env': OrderedDict([('HOSTNAME', 'sajio-System-Product-Name'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ws/install/openarmx_can/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/ws/install/openarmx_can:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/ws/build/openarmx_teleop_leader'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ws/install/openarmx_can:/opt/ros/humble')]), 'shell': False}
+[11.510395] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.510917] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[11.511292] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_teleop_leader/lib/openarmx_teleop_leader/teleop_leader_node\n'}
+[11.515097] (-) TimerEvent: {}
+[11.518859] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_teleop_leader/lib/openarmx_teleop_leader/teleop_leader_with_gravitycomp_single\n'}
+[11.533514] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_teleop_leader/share/openarmx_teleop_leader/launch/bimanual_teleop.launch.py\n'}
+[11.549970] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_teleop_leader/share/openarmx_teleop_leader/launch/teleop_leader_with_gravitycomp_bimanual.launch.py\n'}
+[11.564929] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_teleop_leader/share/ament_index/resource_index/package_run_dependencies/openarmx_teleop_leader\n'}
+[11.575968] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_teleop_leader/share/ament_index/resource_index/parent_prefix_path/openarmx_teleop_leader\n'}
+[11.591724] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_teleop_leader/share/openarmx_teleop_leader/environment/ament_prefix_path.sh\n'}
+[11.601327] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_teleop_leader/share/openarmx_teleop_leader/environment/ament_prefix_path.dsv\n'}
+[11.614403] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_teleop_leader/share/openarmx_teleop_leader/environment/path.sh\n'}
+[11.615166] (-) TimerEvent: {}
+[11.628494] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_teleop_leader/share/openarmx_teleop_leader/environment/path.dsv\n'}
+[11.638490] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_teleop_leader/share/openarmx_teleop_leader/local_setup.bash\n'}
+[11.653990] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_teleop_leader/share/openarmx_teleop_leader/local_setup.sh\n'}
+[11.669270] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_teleop_leader/share/openarmx_teleop_leader/local_setup.zsh\n'}
+[11.685814] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_teleop_leader/share/openarmx_teleop_leader/local_setup.dsv\n'}
+[11.702483] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_teleop_leader/share/openarmx_teleop_leader/package.dsv\n'}
+[11.715359] (-) TimerEvent: {}
+[11.719418] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_teleop_leader/share/ament_index/resource_index/packages/openarmx_teleop_leader\n'}
+[11.737321] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_teleop_leader/share/openarmx_teleop_leader/cmake/openarmx_teleop_leaderConfig.cmake\n'}
+[11.749277] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_teleop_leader/share/openarmx_teleop_leader/cmake/openarmx_teleop_leaderConfig-version.cmake\n'}
+[11.766180] (openarmx_teleop_leader) StdoutLine: {'line': b'-- Symlinking: /ws/install/openarmx_teleop_leader/share/openarmx_teleop_leader/package.xml\n'}
+[11.785506] (openarmx_teleop_leader) CommandEnded: {'returncode': 0}
+[11.807784] (openarmx_teleop_leader) JobEnded: {'identifier': 'openarmx_teleop_leader', 'rc': 0}
+[11.808385] (-) EventReactorShutdown: {}

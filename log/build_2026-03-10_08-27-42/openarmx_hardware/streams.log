@@ -1,0 +1,32 @@
+[0.006s] Invoking command in '/ws/build/openarmx_hardware': CMAKE_PREFIX_PATH=/ws/install/openarmx_can:/ws/install/openarmx_teleop_leader:/ws/install/openarmx_kp_kd_panel:/ws/install/openarmx:/ws/install/openarmx_hardware:/ws/install/openarmx_gripper_panel:/ws/install/openarmx_bimanual_moveit_config:/ws/install/openarmx_description:/ws/install/openarmx_bringup:/ws/install/openarmx_teach:/opt/ros/humble /usr/bin/cmake --build /ws/build/openarmx_hardware -- -j20 -l20
+[0.043s] [100%] Built target openarmx_hardware
+[0.050s] Invoked command in '/ws/build/openarmx_hardware' returned '0': CMAKE_PREFIX_PATH=/ws/install/openarmx_can:/ws/install/openarmx_teleop_leader:/ws/install/openarmx_kp_kd_panel:/ws/install/openarmx:/ws/install/openarmx_hardware:/ws/install/openarmx_gripper_panel:/ws/install/openarmx_bimanual_moveit_config:/ws/install/openarmx_description:/ws/install/openarmx_bringup:/ws/install/openarmx_teach:/opt/ros/humble /usr/bin/cmake --build /ws/build/openarmx_hardware -- -j20 -l20
+[0.051s] Invoking command in '/ws/build/openarmx_hardware': CMAKE_PREFIX_PATH=/ws/install/openarmx_can:/ws/install/openarmx_teleop_leader:/ws/install/openarmx_kp_kd_panel:/ws/install/openarmx:/ws/install/openarmx_hardware:/ws/install/openarmx_gripper_panel:/ws/install/openarmx_bimanual_moveit_config:/ws/install/openarmx_description:/ws/install/openarmx_bringup:/ws/install/openarmx_teach:/opt/ros/humble /usr/bin/cmake --install /ws/build/openarmx_hardware
+[0.053s] -- Install configuration: ""
+[0.054s] -- Execute custom install script
+[0.054s] -- Up-to-date symlink: /ws/install/openarmx_hardware/share/openarmx_hardware//openarmx_hardware.xml
+[0.054s] -- Up-to-date symlink: /ws/install/openarmx_hardware/lib/libopenarmx_hardware.so
+[0.054s] -- Up-to-date symlink: /ws/install/openarmx_hardware/include/openarmx_hardware/v10_simple_hardware.hpp
+[0.054s] -- Up-to-date symlink: /ws/install/openarmx_hardware/include/openarmx_hardware/visibility_control.h
+[0.054s] -- Up-to-date symlink: /ws/install/openarmx_hardware/share/openarmx_hardware/environment/library_path.sh
+[0.054s] -- Up-to-date symlink: /ws/install/openarmx_hardware/share/openarmx_hardware/environment/library_path.dsv
+[0.054s] -- Up-to-date symlink: /ws/install/openarmx_hardware/share/ament_index/resource_index/package_run_dependencies/openarmx_hardware
+[0.054s] -- Up-to-date symlink: /ws/install/openarmx_hardware/share/ament_index/resource_index/parent_prefix_path/openarmx_hardware
+[0.054s] -- Up-to-date symlink: /ws/install/openarmx_hardware/share/openarmx_hardware/environment/ament_prefix_path.sh
+[0.054s] -- Up-to-date symlink: /ws/install/openarmx_hardware/share/openarmx_hardware/environment/ament_prefix_path.dsv
+[0.054s] -- Up-to-date symlink: /ws/install/openarmx_hardware/share/openarmx_hardware/environment/path.sh
+[0.054s] -- Up-to-date symlink: /ws/install/openarmx_hardware/share/openarmx_hardware/environment/path.dsv
+[0.054s] -- Up-to-date symlink: /ws/install/openarmx_hardware/share/openarmx_hardware/local_setup.bash
+[0.055s] -- Up-to-date symlink: /ws/install/openarmx_hardware/share/openarmx_hardware/local_setup.sh
+[0.055s] -- Up-to-date symlink: /ws/install/openarmx_hardware/share/openarmx_hardware/local_setup.zsh
+[0.055s] -- Up-to-date symlink: /ws/install/openarmx_hardware/share/openarmx_hardware/local_setup.dsv
+[0.055s] -- Symlinking: /ws/install/openarmx_hardware/share/openarmx_hardware/package.dsv
+[0.060s] -- Up-to-date symlink: /ws/install/openarmx_hardware/share/ament_index/resource_index/packages/openarmx_hardware
+[0.060s] -- Up-to-date symlink: /ws/install/openarmx_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/openarmx_hardware
+[0.060s] -- Up-to-date symlink: /ws/install/openarmx_hardware/share/openarmx_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.060s] -- Up-to-date symlink: /ws/install/openarmx_hardware/share/openarmx_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+[0.060s] -- Up-to-date symlink: /ws/install/openarmx_hardware/share/openarmx_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.060s] -- Up-to-date symlink: /ws/install/openarmx_hardware/share/openarmx_hardware/cmake/openarmx_hardwareConfig.cmake
+[0.060s] -- Up-to-date symlink: /ws/install/openarmx_hardware/share/openarmx_hardware/cmake/openarmx_hardwareConfig-version.cmake
+[0.060s] -- Up-to-date symlink: /ws/install/openarmx_hardware/share/openarmx_hardware/package.xml
+[0.061s] Invoked command in '/ws/build/openarmx_hardware' returned '0': CMAKE_PREFIX_PATH=/ws/install/openarmx_can:/ws/install/openarmx_teleop_leader:/ws/install/openarmx_kp_kd_panel:/ws/install/openarmx:/ws/install/openarmx_hardware:/ws/install/openarmx_gripper_panel:/ws/install/openarmx_bimanual_moveit_config:/ws/install/openarmx_description:/ws/install/openarmx_bringup:/ws/install/openarmx_teach:/opt/ros/humble /usr/bin/cmake --install /ws/build/openarmx_hardware

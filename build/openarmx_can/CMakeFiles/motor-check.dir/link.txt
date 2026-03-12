@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/motor-check.dir/setup/motor_check.cpp.o -o motor-check  libopenarmx_can.a 

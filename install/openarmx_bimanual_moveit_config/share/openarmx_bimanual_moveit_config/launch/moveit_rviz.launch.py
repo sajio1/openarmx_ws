@@ -1,0 +1,1 @@
+/ws/src/openarmx_ros2/openarmx_bimanual_moveit_config/launch/moveit_rviz.launch.py

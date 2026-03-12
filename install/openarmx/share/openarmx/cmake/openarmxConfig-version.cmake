@@ -1,0 +1,1 @@
+/ws/build/openarmx/ament_cmake_core/openarmxConfig-version.cmake

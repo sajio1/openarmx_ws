@@ -1,0 +1,1 @@
+/ws/src/openarmx_ros2/openarmx_hardware/include/openarmx_hardware/v10_simple_hardware.hpp

@@ -1,0 +1,1 @@
+/ws/install/openarmx_gripper_panel/lib/libopenarmx_gripper_panel.so

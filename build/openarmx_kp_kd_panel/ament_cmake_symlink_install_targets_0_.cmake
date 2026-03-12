@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/ws/build/openarmx_kp_kd_panel/libopenarmx_kp_kd_panel.so" "TARGETS" "openarmx_kp_kd_panel" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

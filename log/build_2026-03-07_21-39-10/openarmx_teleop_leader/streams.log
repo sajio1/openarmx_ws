@@ -1,0 +1,28 @@
+[0.006s] Invoking command in '/ws/build/openarmx_teleop_leader': CMAKE_PREFIX_PATH=/ws/install/openarmx_can:/ws/install/openarmx_teleop_leader:/ws/install/openarmx_kp_kd_panel:/ws/install/openarmx:/ws/install/openarmx_hardware:/ws/install/openarmx_gripper_panel:/ws/install/openarmx_bimanual_moveit_config:/ws/install/openarmx_description:/ws/install/openarmx_bringup:/ws/install/openarmx_teach:/opt/ros/humble /usr/bin/cmake --build /ws/build/openarmx_teleop_leader -- -j20 -l20
+[0.039s] [ 33%] Built target openarmx_teleop_leader_dynamics
+[0.041s] [ 66%] Built target teleop_leader_node
+[0.057s] [100%] Built target teleop_leader_with_gravitycomp_single
+[0.069s] Invoked command in '/ws/build/openarmx_teleop_leader' returned '0': CMAKE_PREFIX_PATH=/ws/install/openarmx_can:/ws/install/openarmx_teleop_leader:/ws/install/openarmx_kp_kd_panel:/ws/install/openarmx:/ws/install/openarmx_hardware:/ws/install/openarmx_gripper_panel:/ws/install/openarmx_bimanual_moveit_config:/ws/install/openarmx_description:/ws/install/openarmx_bringup:/ws/install/openarmx_teach:/opt/ros/humble /usr/bin/cmake --build /ws/build/openarmx_teleop_leader -- -j20 -l20
+[0.070s] Invoking command in '/ws/build/openarmx_teleop_leader': CMAKE_PREFIX_PATH=/ws/install/openarmx_can:/ws/install/openarmx_teleop_leader:/ws/install/openarmx_kp_kd_panel:/ws/install/openarmx:/ws/install/openarmx_hardware:/ws/install/openarmx_gripper_panel:/ws/install/openarmx_bimanual_moveit_config:/ws/install/openarmx_description:/ws/install/openarmx_bringup:/ws/install/openarmx_teach:/opt/ros/humble /usr/bin/cmake --install /ws/build/openarmx_teleop_leader
+[0.076s] -- Install configuration: ""
+[0.076s] -- Execute custom install script
+[0.077s] -- Up-to-date symlink: /ws/install/openarmx_teleop_leader/lib/openarmx_teleop_leader/teleop_leader_node
+[0.077s] -- Up-to-date symlink: /ws/install/openarmx_teleop_leader/lib/openarmx_teleop_leader/teleop_leader_with_gravitycomp_single
+[0.077s] -- Up-to-date symlink: /ws/install/openarmx_teleop_leader/share/openarmx_teleop_leader/launch/bimanual_teleop.launch.py
+[0.077s] -- Up-to-date symlink: /ws/install/openarmx_teleop_leader/share/openarmx_teleop_leader/launch/teleop_leader_with_gravitycomp_bimanual.launch.py
+[0.077s] -- Up-to-date symlink: /ws/install/openarmx_teleop_leader/share/ament_index/resource_index/package_run_dependencies/openarmx_teleop_leader
+[0.077s] -- Up-to-date symlink: /ws/install/openarmx_teleop_leader/share/ament_index/resource_index/parent_prefix_path/openarmx_teleop_leader
+[0.078s] -- Up-to-date symlink: /ws/install/openarmx_teleop_leader/share/openarmx_teleop_leader/environment/ament_prefix_path.sh
+[0.078s] -- Up-to-date symlink: /ws/install/openarmx_teleop_leader/share/openarmx_teleop_leader/environment/ament_prefix_path.dsv
+[0.078s] -- Up-to-date symlink: /ws/install/openarmx_teleop_leader/share/openarmx_teleop_leader/environment/path.sh
+[0.078s] -- Up-to-date symlink: /ws/install/openarmx_teleop_leader/share/openarmx_teleop_leader/environment/path.dsv
+[0.078s] -- Up-to-date symlink: /ws/install/openarmx_teleop_leader/share/openarmx_teleop_leader/local_setup.bash
+[0.078s] -- Up-to-date symlink: /ws/install/openarmx_teleop_leader/share/openarmx_teleop_leader/local_setup.sh
+[0.078s] -- Up-to-date symlink: /ws/install/openarmx_teleop_leader/share/openarmx_teleop_leader/local_setup.zsh
+[0.078s] -- Up-to-date symlink: /ws/install/openarmx_teleop_leader/share/openarmx_teleop_leader/local_setup.dsv
+[0.078s] -- Symlinking: /ws/install/openarmx_teleop_leader/share/openarmx_teleop_leader/package.dsv
+[0.084s] -- Up-to-date symlink: /ws/install/openarmx_teleop_leader/share/ament_index/resource_index/packages/openarmx_teleop_leader
+[0.084s] -- Up-to-date symlink: /ws/install/openarmx_teleop_leader/share/openarmx_teleop_leader/cmake/openarmx_teleop_leaderConfig.cmake
+[0.084s] -- Up-to-date symlink: /ws/install/openarmx_teleop_leader/share/openarmx_teleop_leader/cmake/openarmx_teleop_leaderConfig-version.cmake
+[0.084s] -- Up-to-date symlink: /ws/install/openarmx_teleop_leader/share/openarmx_teleop_leader/package.xml
+[0.086s] Invoked command in '/ws/build/openarmx_teleop_leader' returned '0': CMAKE_PREFIX_PATH=/ws/install/openarmx_can:/ws/install/openarmx_teleop_leader:/ws/install/openarmx_kp_kd_panel:/ws/install/openarmx:/ws/install/openarmx_hardware:/ws/install/openarmx_gripper_panel:/ws/install/openarmx_bimanual_moveit_config:/ws/install/openarmx_description:/ws/install/openarmx_bringup:/ws/install/openarmx_teach:/opt/ros/humble /usr/bin/cmake --install /ws/build/openarmx_teleop_leader

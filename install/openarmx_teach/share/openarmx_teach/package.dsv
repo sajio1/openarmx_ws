@@ -1,0 +1,9 @@
+source;share/openarmx_teach/hook/pythonpath.ps1
+source;share/openarmx_teach/hook/pythonpath.dsv
+source;share/openarmx_teach/hook/pythonpath.sh
+source;share/openarmx_teach/hook/ament_prefix_path.ps1
+source;share/openarmx_teach/hook/ament_prefix_path.dsv
+source;share/openarmx_teach/hook/ament_prefix_path.sh
+source;../../build/openarmx_teach/share/openarmx_teach/hook/pythonpath_develop.ps1
+source;../../build/openarmx_teach/share/openarmx_teach/hook/pythonpath_develop.dsv
+source;../../build/openarmx_teach/share/openarmx_teach/hook/pythonpath_develop.sh

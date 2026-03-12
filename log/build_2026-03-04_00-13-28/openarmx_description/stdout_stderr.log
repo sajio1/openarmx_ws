@@ -1,0 +1,100 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /ws/build/openarmx_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/launch/display_openarmx.launch.py
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/collision/link0_symp.stl
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/collision/link1_symp.stl
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/collision/link2_symp.stl
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/collision/link3_symp.stl
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/collision/link4_symp.stl
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/collision/link5_symp.stl
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/collision/link6_symp.stl
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/collision/link7_symp.stl
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/visual/link0.dae
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/visual/link0.stl
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/visual/link1.dae
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/visual/link1.stl
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/visual/link2.dae
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/visual/link2.stl
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/visual/link3.dae
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/visual/link3.stl
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/visual/link4.dae
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/visual/link4.stl
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/visual/link5.dae
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/visual/link5.stl
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/visual/link6.dae
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/visual/link6.stl
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/visual/link7.dae
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/visual/link7.stl
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/body/v10/collision/body_link0_symp.stl
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/body/v10/visual/body_link0.dae
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/body/v10/visual/body_link0.stl
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/ee/openarmx_hand/collision/finger.stl
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/ee/openarmx_hand/collision/hand.stl
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/ee/openarmx_hand/visual/finger.dae
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/ee/openarmx_hand/visual/finger.stl
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/ee/openarmx_hand/visual/hand.dae
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/rviz/arm_only.rviz
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/rviz/bimanual.rviz
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/urdf/arm/openarmx_arm.xacro
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/urdf/arm/openarmx_macro.xacro
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/urdf/body/openarmx_body.xacro
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/urdf/body/openarmx_body_macro.xacro
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/urdf/ee/ee_with_one_link.xacro
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/urdf/ee/openarmx_hand.xacro
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/urdf/ee/openarmx_hand_arguments.xacro
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/urdf/ee/openarmx_hand_macro.xacro
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/urdf/robot/openarmx_bimanual_sim.urdf
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/urdf/robot/openarmx_robot.xacro
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/urdf/robot/v10.urdf.xacro
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/urdf/ros2_control/openarmx.bimanual.ros2_control.xacro
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/urdf/ros2_control/openarmx.ros2_control.xacro
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/config/arm/v10/inertials.yaml
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/config/arm/v10/joint_limits.yaml
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/config/arm/v10/kinematics.yaml
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/config/arm/v10/kinematics_link.yaml
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/config/arm/v10/kinematics_offset.yaml
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/config/body/v10/inertials.yaml
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/config/body/v10/kinematics.yaml
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/config/body/v10/kinematics_link.yaml
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/config/hand/openarmx_hand/inertials.yaml
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/config/hand/openarmx_hand/joint_limits.yaml
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/config/hand/openarmx_hand/kinematics.yaml
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/config/hand/openarmx_hand/kinematics_link.yaml
+-- Symlinking: /ws/install/openarmx_description/share/ament_index/resource_index/package_run_dependencies/openarmx_description
+-- Symlinking: /ws/install/openarmx_description/share/ament_index/resource_index/parent_prefix_path/openarmx_description
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/environment/ament_prefix_path.sh
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/environment/ament_prefix_path.dsv
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/environment/path.sh
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/environment/path.dsv
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/local_setup.bash
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/local_setup.sh
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/local_setup.zsh
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/local_setup.dsv
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/package.dsv
+-- Symlinking: /ws/install/openarmx_description/share/ament_index/resource_index/packages/openarmx_description
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/cmake/openarmx_descriptionConfig.cmake
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/cmake/openarmx_descriptionConfig-version.cmake
+-- Symlinking: /ws/install/openarmx_description/share/openarmx_description/package.xml

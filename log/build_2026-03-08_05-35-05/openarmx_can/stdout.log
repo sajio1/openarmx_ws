@@ -1,0 +1,54 @@
+[ 50%] Built target openarmx_can
+[ 60%] Built target motor-check
+[ 70%] Built target robstride-demo-full
+[ 80%] Built target python-style-test
+[ 90%] Built target robstride-demo
+[100%] Built target robstride-demo-gripper
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /ws/install/openarmx_can/lib/cmake/OpenArmCANOpenArmXCom/OpenArmXCANConfig.cmake
+-- Up-to-date symlink: /ws/install/openarmx_can/lib/cmake/OpenArmCANOpenArmXCom/OpenArmXCANVersion.cmake
+-- Up-to-date symlink: /ws/install/openarmx_can/lib/pkgconfig/openarmx-can.pc
+-- Up-to-date symlink: /ws/install/openarmx_can/include/openarm/can/socket/arm_component.hpp
+-- Up-to-date symlink: /ws/install/openarmx_can/include/openarm/can/socket/gripper_component.hpp
+-- Up-to-date symlink: /ws/install/openarmx_can/include/openarm/can/socket/openarm.hpp
+-- Up-to-date symlink: /ws/install/openarmx_can/include/openarm/canbus/can_device.hpp
+-- Up-to-date symlink: /ws/install/openarmx_can/include/openarm/canbus/can_device_collection.hpp
+-- Up-to-date symlink: /ws/install/openarmx_can/include/openarm/canbus/can_socket.hpp
+-- Up-to-date symlink: /ws/install/openarmx_can/include/openarm/robstride_motor/rs_motor.hpp
+-- Up-to-date symlink: /ws/install/openarmx_can/include/openarm/robstride_motor/rs_motor_constants.hpp
+-- Up-to-date symlink: /ws/install/openarmx_can/include/openarm/robstride_motor/rs_motor_control.hpp
+-- Up-to-date symlink: /ws/install/openarmx_can/include/openarm/robstride_motor/rs_motor_device.hpp
+-- Up-to-date symlink: /ws/install/openarmx_can/include/openarm/robstride_motor/rs_motor_device_collection.hpp
+-- Up-to-date symlink: /ws/install/openarmx_can/lib/openarmx_can/robstride-demo
+-- Up-to-date symlink: /ws/install/openarmx_can/lib/openarmx_can/python-style-test
+-- Up-to-date symlink: /ws/install/openarmx_can/lib/openarmx_can/robstride-demo-full
+-- Up-to-date symlink: /ws/install/openarmx_can/lib/openarmx_can/robstride-demo-gripper
+-- Up-to-date symlink: /ws/install/openarmx_can/lib/openarmx_can/motor-check
+-- Up-to-date symlink: /ws/install/openarmx_can/lib/cmake/openarmx_can/openarmx_canConfig.cmake
+-- Up-to-date symlink: /ws/install/openarmx_can/share/openarmx_can/environment/library_path.sh
+-- Up-to-date symlink: /ws/install/openarmx_can/share/openarmx_can/environment/library_path.dsv
+-- Up-to-date symlink: /ws/install/openarmx_can/share/ament_index/resource_index/package_run_dependencies/openarmx_can
+-- Up-to-date symlink: /ws/install/openarmx_can/share/ament_index/resource_index/parent_prefix_path/openarmx_can
+-- Up-to-date symlink: /ws/install/openarmx_can/share/openarmx_can/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /ws/install/openarmx_can/share/openarmx_can/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /ws/install/openarmx_can/share/openarmx_can/environment/path.sh
+-- Up-to-date symlink: /ws/install/openarmx_can/share/openarmx_can/environment/path.dsv
+-- Up-to-date symlink: /ws/install/openarmx_can/share/openarmx_can/local_setup.bash
+-- Up-to-date symlink: /ws/install/openarmx_can/share/openarmx_can/local_setup.sh
+-- Up-to-date symlink: /ws/install/openarmx_can/share/openarmx_can/local_setup.zsh
+-- Up-to-date symlink: /ws/install/openarmx_can/share/openarmx_can/local_setup.dsv
+-- Symlinking: /ws/install/openarmx_can/share/openarmx_can/package.dsv
+-- Up-to-date symlink: /ws/install/openarmx_can/share/ament_index/resource_index/packages/openarmx_can
+-- Up-to-date symlink: /ws/install/openarmx_can/share/openarmx_can/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /ws/install/openarmx_can/share/openarmx_can/cmake/openarmx_canConfig.cmake
+-- Up-to-date symlink: /ws/install/openarmx_can/share/openarmx_can/cmake/openarmx_canConfig-version.cmake
+-- Up-to-date symlink: /ws/install/openarmx_can/share/openarmx_can/package.xml
+-- Up-to-date: /ws/install/openarmx_can/lib/libopenarmx_can.a
+-- Up-to-date: /ws/install/openarmx_can/lib/cmake/OpenArmCANOpenArmXCom/OpenArmCANOpenArmXComTargets.cmake
+-- Up-to-date: /ws/install/openarmx_can/lib/cmake/OpenArmCANOpenArmXCom/OpenArmCANOpenArmXComTargets-noconfig.cmake
+-- Up-to-date: /ws/install/openarmx_can/lib/libopenarmx_can.a
+-- Up-to-date: /ws/install/openarmx_can/lib/cmake/openarmx_can/openarmx_canTargets.cmake
+-- Up-to-date: /ws/install/openarmx_can/lib/cmake/openarmx_can/openarmx_canTargets-noconfig.cmake
+-- Up-to-date: /ws/install/openarmx_can/share/openarmx_can/cmake/openarmx_canTargetsExport.cmake
+-- Up-to-date: /ws/install/openarmx_can/share/openarmx_can/cmake/openarmx_canTargetsExport-noconfig.cmake

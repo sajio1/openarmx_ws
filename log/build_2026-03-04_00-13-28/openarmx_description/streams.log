@@ -1,0 +1,106 @@
+[0.011s] Invoking command in '/ws/build/openarmx_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ws/src/openarmx_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/install/openarmx_description
+[0.127s] -- The C compiler identification is GNU 11.4.0
+[0.127s] -- The CXX compiler identification is GNU 11.4.0
+[0.127s] -- Detecting C compiler ABI info
+[0.127s] -- Detecting C compiler ABI info - done
+[0.127s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.127s] -- Detecting C compile features
+[0.128s] -- Detecting C compile features - done
+[0.129s] -- Detecting CXX compiler ABI info
+[0.165s] -- Detecting CXX compiler ABI info - done
+[0.171s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.171s] -- Detecting CXX compile features
+[0.172s] -- Detecting CXX compile features - done
+[0.174s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.289s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.333s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.353s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.408s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.408s] -- Added test 'lint_cmake' to check CMake code style
+[0.408s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.411s] -- Added test 'xmllint' to check XML markup files
+[0.412s] -- Configuring done
+[0.413s] -- Generating done
+[0.414s] -- Build files have been written to: /ws/build/openarmx_description
+[0.416s] Invoked command in '/ws/build/openarmx_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ws/src/openarmx_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/install/openarmx_description
+[0.417s] Invoking command in '/ws/build/openarmx_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ws/build/openarmx_description -- -j20 -l20
+[0.438s] Invoked command in '/ws/build/openarmx_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ws/build/openarmx_description -- -j20 -l20
+[0.439s] Invoking command in '/ws/build/openarmx_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ws/build/openarmx_description
+[0.445s] -- Install configuration: ""
+[0.445s] -- Execute custom install script
+[0.445s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/launch/display_openarmx.launch.py
+[0.450s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/collision/link0_symp.stl
+[0.455s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/collision/link1_symp.stl
+[0.459s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/collision/link2_symp.stl
+[0.463s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/collision/link3_symp.stl
+[0.467s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/collision/link4_symp.stl
+[0.471s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/collision/link5_symp.stl
+[0.476s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/collision/link6_symp.stl
+[0.480s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/collision/link7_symp.stl
+[0.484s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/visual/link0.dae
+[0.499s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/visual/link0.stl
+[0.499s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/visual/link1.dae
+[0.499s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/visual/link1.stl
+[0.503s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/visual/link2.dae
+[0.509s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/visual/link2.stl
+[0.513s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/visual/link3.dae
+[0.520s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/visual/link3.stl
+[0.524s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/visual/link4.dae
+[0.530s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/visual/link4.stl
+[0.535s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/visual/link5.dae
+[0.540s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/visual/link5.stl
+[0.544s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/visual/link6.dae
+[0.552s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/visual/link6.stl
+[0.558s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/visual/link7.dae
+[0.562s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/arm/v10/visual/link7.stl
+[0.567s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/body/v10/collision/body_link0_symp.stl
+[0.574s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/body/v10/visual/body_link0.dae
+[0.578s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/body/v10/visual/body_link0.stl
+[0.582s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/ee/openarmx_hand/collision/finger.stl
+[0.589s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/ee/openarmx_hand/collision/hand.stl
+[0.594s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/ee/openarmx_hand/visual/finger.dae
+[0.598s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/ee/openarmx_hand/visual/finger.stl
+[0.602s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/meshes/ee/openarmx_hand/visual/hand.dae
+[0.608s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/rviz/arm_only.rviz
+[0.615s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/rviz/bimanual.rviz
+[0.620s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/urdf/arm/openarmx_arm.xacro
+[0.628s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/urdf/arm/openarmx_macro.xacro
+[0.632s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/urdf/body/openarmx_body.xacro
+[0.636s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/urdf/body/openarmx_body_macro.xacro
+[0.641s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/urdf/ee/ee_with_one_link.xacro
+[0.645s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/urdf/ee/openarmx_hand.xacro
+[0.651s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/urdf/ee/openarmx_hand_arguments.xacro
+[0.657s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/urdf/ee/openarmx_hand_macro.xacro
+[0.661s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/urdf/robot/openarmx_bimanual_sim.urdf
+[0.665s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/urdf/robot/openarmx_robot.xacro
+[0.673s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/urdf/robot/v10.urdf.xacro
+[0.679s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/urdf/ros2_control/openarmx.bimanual.ros2_control.xacro
+[0.683s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/urdf/ros2_control/openarmx.ros2_control.xacro
+[0.688s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/config/arm/v10/inertials.yaml
+[0.695s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/config/arm/v10/joint_limits.yaml
+[0.699s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/config/arm/v10/kinematics.yaml
+[0.703s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/config/arm/v10/kinematics_link.yaml
+[0.709s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/config/arm/v10/kinematics_offset.yaml
+[0.713s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/config/body/v10/inertials.yaml
+[0.719s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/config/body/v10/kinematics.yaml
+[0.725s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/config/body/v10/kinematics_link.yaml
+[0.732s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/config/hand/openarmx_hand/inertials.yaml
+[0.737s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/config/hand/openarmx_hand/joint_limits.yaml
+[0.741s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/config/hand/openarmx_hand/kinematics.yaml
+[0.744s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/config/hand/openarmx_hand/kinematics_link.yaml
+[0.748s] -- Symlinking: /ws/install/openarmx_description/share/ament_index/resource_index/package_run_dependencies/openarmx_description
+[0.752s] -- Symlinking: /ws/install/openarmx_description/share/ament_index/resource_index/parent_prefix_path/openarmx_description
+[0.756s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/environment/ament_prefix_path.sh
+[0.760s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/environment/ament_prefix_path.dsv
+[0.764s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/environment/path.sh
+[0.768s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/environment/path.dsv
+[0.772s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/local_setup.bash
+[0.777s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/local_setup.sh
+[0.781s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/local_setup.zsh
+[0.788s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/local_setup.dsv
+[0.794s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/package.dsv
+[0.799s] -- Symlinking: /ws/install/openarmx_description/share/ament_index/resource_index/packages/openarmx_description
+[0.802s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/cmake/openarmx_descriptionConfig.cmake
+[0.806s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/cmake/openarmx_descriptionConfig-version.cmake
+[0.812s] -- Symlinking: /ws/install/openarmx_description/share/openarmx_description/package.xml
+[0.819s] Invoked command in '/ws/build/openarmx_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ws/build/openarmx_description

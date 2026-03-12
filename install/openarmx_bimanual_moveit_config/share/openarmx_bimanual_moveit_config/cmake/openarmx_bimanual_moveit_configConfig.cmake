@@ -1,0 +1,1 @@
+/ws/build/openarmx_bimanual_moveit_config/ament_cmake_core/openarmx_bimanual_moveit_configConfig.cmake

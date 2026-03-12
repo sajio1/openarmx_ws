@@ -1,0 +1,15 @@
+README.md
+package.xml
+setup.cfg
+setup.py
+openarmx_teach/__init__.py
+openarmx_teach/play_joint_trajectory.py
+openarmx_teach/record_joint_states_always.py
+openarmx_teach.egg-info/PKG-INFO
+openarmx_teach.egg-info/SOURCES.txt
+openarmx_teach.egg-info/dependency_links.txt
+openarmx_teach.egg-info/entry_points.txt
+openarmx_teach.egg-info/requires.txt
+openarmx_teach.egg-info/top_level.txt
+openarmx_teach.egg-info/zip-safe
+resource/openarmx_teach

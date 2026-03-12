@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing openarmx_teach.egg-info/PKG-INFO
+writing dependency_links to openarmx_teach.egg-info/dependency_links.txt
+writing entry points to openarmx_teach.egg-info/entry_points.txt
+writing requirements to openarmx_teach.egg-info/requires.txt
+writing top-level names to openarmx_teach.egg-info/top_level.txt
+reading manifest file 'openarmx_teach.egg-info/SOURCES.txt'
+writing manifest file 'openarmx_teach.egg-info/SOURCES.txt'
+running build_ext
+Creating /ws/install/openarmx_teach/lib/python3.10/site-packages/openarmx-teach.egg-link (link to .)
+Installing play_joint_trajectory script to /ws/install/openarmx_teach/lib/openarmx_teach
+Installing record_joint_states_always script to /ws/install/openarmx_teach/lib/openarmx_teach
+Installing record_joint_states_stepbystep script to /ws/install/openarmx_teach/lib/openarmx_teach
+
+Installed /ws/build/openarmx_teach
+running symlink_data

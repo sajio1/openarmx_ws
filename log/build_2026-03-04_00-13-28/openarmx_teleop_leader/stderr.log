@@ -1,0 +1,4 @@
+/ws/src/openarmx_teleop_leader/src/dynamics.cpp: In member function ‘void Dynamics::GetGravity(const double*, double*)’:
+/ws/src/openarmx_teleop_leader/src/dynamics.cpp:83:20: warning: unused variable ‘njoints’ [-Wunused-variable]
+   83 |         const auto njoints = kdl_chain.getNrOfJoints();
+      |                    ^~~~~~~

@@ -1,0 +1,4 @@
+Invoking command in '/ws/build/openarmx_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ws/install/openarmx_teach:/opt/ros/humble /usr/bin/cmake --build /ws/build/openarmx_bringup -- -j20 -l20
+Invoked command in '/ws/build/openarmx_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ws/install/openarmx_teach:/opt/ros/humble /usr/bin/cmake --build /ws/build/openarmx_bringup -- -j20 -l20
+Invoking command in '/ws/build/openarmx_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ws/install/openarmx_teach:/opt/ros/humble /usr/bin/cmake --install /ws/build/openarmx_bringup
+Invoked command in '/ws/build/openarmx_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ws/install/openarmx_teach:/opt/ros/humble /usr/bin/cmake --install /ws/build/openarmx_bringup

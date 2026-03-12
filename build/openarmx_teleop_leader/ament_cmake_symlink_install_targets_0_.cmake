@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/ws/build/openarmx_teleop_leader/teleop_leader_node" "/ws/build/openarmx_teleop_leader/teleop_leader_with_gravitycomp_single" "TARGETS" "teleop_leader_node" "teleop_leader_with_gravitycomp_single" "DESTINATION" "lib/openarmx_teleop_leader")
