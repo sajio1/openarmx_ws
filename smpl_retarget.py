@@ -14,6 +14,7 @@ Output:
 from __future__ import annotations
 
 import argparse
+import importlib.util
 import json
 import time
 from pathlib import Path
@@ -54,6 +55,13 @@ BIMANUAL_OFFSET = {
 # Shoulder-frame coarse Z alignment (code-level tuning, no config change).
 # Derived from runtime comparison against available reference trajectories.
 SHOULDER_ALIGN_Z_DEG = {"left": 75.0, "right": -75.0}
+# Shoulder joint2 bias to move neutral posture from lateral spread to hanging-down.
+# Positive on left and negative on right were validated on thumbs_up frame0.
+SHOULDER_J2_BIAS_RAD = {"left": 1.175, "right": -1.175}
+USE_CONFIG_HOME_ZERO = True
+# Per user requirement: natural hanging-down posture needs +90deg on J1.
+# Mirror sign on right arm to preserve bilateral symmetry.
+ZERO_J1_EXTRA_RAD = {"left": np.pi / 2.0, "right": -np.pi / 2.0}
 
 DEBUG_LOG_PATH = "/home/sajio/vscode_robotic/openarmx_ws/.cursor/debug-50716b.log"
 DEBUG_SESSION_ID = "50716b"
@@ -72,6 +80,24 @@ def _debug_log(hypothesis_id: str, location: str, message: str, data: dict) -> N
     }
     with open(DEBUG_LOG_PATH, "a", encoding="utf-8") as f:
         f.write(json.dumps(payload, ensure_ascii=True) + "\n")
+
+
+def _load_home_pose_from_config() -> tuple[np.ndarray, np.ndarray] | None:
+    cfg_path = Path("shadow_mode/vr_controller/config.py").resolve()
+    if not cfg_path.exists():
+        return None
+    spec = importlib.util.spec_from_file_location("shadow_mode_vr_cfg", str(cfg_path))
+    if spec is None or spec.loader is None:
+        return None
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    if not hasattr(mod, "HOME_POSE_LEFT_JOINTS") or not hasattr(mod, "HOME_POSE_RIGHT_JOINTS"):
+        return None
+    left = np.array(mod.HOME_POSE_LEFT_JOINTS, dtype=np.float64)
+    right = np.array(mod.HOME_POSE_RIGHT_JOINTS, dtype=np.float64)
+    if left.shape != (7,) or right.shape != (7,):
+        return None
+    return left, right
 
 
 def _rot_angle_deg(rot: R) -> float:
@@ -114,7 +140,7 @@ def _decompose_shoulder(
         r_total = r_align * (r_collar * r_shoulder)
         a, b, c = r_total.as_euler("ZXZ", degrees=False)
         q1[i] = a
-        q2[i] = -b if side == "left" else b
+        q2[i] = (-b if side == "left" else b) + SHOULDER_J2_BIAS_RAD[side]
         q3[i] = c
     return q1, q2, q3
 
@@ -262,6 +288,37 @@ def main() -> None:
 
     left = retarget_side(pose_body, "left")
     right = retarget_side(pose_body, "right")
+    # Anchor the trajectory to a natural zero posture:
+    # keep SMPL motion as delta over frame0, then add configured home pose.
+    if USE_CONFIG_HOME_ZERO:
+        home = _load_home_pose_from_config()
+        if home is not None:
+            home_left, home_right = home
+            home_left = home_left.copy()
+            home_right = home_right.copy()
+            home_left[0] += ZERO_J1_EXTRA_RAD["left"]
+            home_right[0] += ZERO_J1_EXTRA_RAD["right"]
+
+            left = (left - left[0][None, :]) + home_left[None, :]
+            right = (right - right[0][None, :]) + home_right[None, :]
+            _debug_log(
+                "H12",
+                "smpl_retarget.py:main",
+                "config_zero_anchor_applied",
+                {
+                    "home_left_used": np.round(home_left, 6).tolist(),
+                    "home_right_used": np.round(home_right, 6).tolist(),
+                    "left_frame0_after_anchor": np.round(left[0], 6).tolist(),
+                    "right_frame0_after_anchor": np.round(right[0], 6).tolist(),
+                },
+            )
+        else:
+            _debug_log(
+                "H12",
+                "smpl_retarget.py:main",
+                "config_zero_anchor_skipped",
+                {"reason": "config_not_found_or_invalid"},
+            )
     left_pre = left.copy()
     right_pre = right.copy()
     # region agent log
