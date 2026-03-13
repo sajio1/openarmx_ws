@@ -1,0 +1,36 @@
+# Byte-compiled / cached
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Build / dist
+*.egg-info/
+dist/
+build/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated (optional: remove to track)
+frames_*.gv
+analysis_outputs/*.json
+analysis_outputs/*.jsonl
+analysis_outputs/*.csv

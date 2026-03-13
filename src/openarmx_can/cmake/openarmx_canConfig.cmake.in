@@ -1,0 +1,9 @@
+@PACKAGE_INIT@
+
+include(CMakeFindDependencyMacro)
+
+if(NOT TARGET openarmx_can::openarmx_can)
+  include("${CMAKE_CURRENT_LIST_DIR}/openarmx_canTargets.cmake")
+endif()
+
+check_required_components(openarmx_can)
